@@ -4,7 +4,7 @@
  <title>Rokblog</title>
  <link href="http://rok.mihevc.org/atom.xml" rel="self"/>
  <link href="http://rok.mihevc.org/"/>
- <updated>2010-01-25T07:08:29+01:00</updated>
+ <updated>2010-01-25T18:54:03+01:00</updated>
  <id>http://rok.mihevc.org/</id>
  <author>
    <name>Rok Mihevc</name>
@@ -14,12 +14,12 @@
  
  <entry>
    <title>How I migrated my old blog to a new blogging engine some late Sunday evening</title>
-   <link href="http://rok.mihevc.org//2010/01/25/new-and-improved-blog.html"/>
+   <link href="http://rok.mihevc.org//2010/01/25/how-i-migrated-my-old-blog-to-a-new-blogging-engine-some-late-sunday-evening.html"/>
    <updated>2010-01-25T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2010/01/25/new-and-improved-blog</id>
-   <content type="html">&lt;h1&gt;How I migrated my old blog to a new blogging engine some late Sunday evening&lt;/h1&gt;
+   <id>http://rok.mihevc.org//2010/01/25/how-i-migrated-my-old-blog-to-a-new-blogging-engine-some-late-sunday-evening</id>
+   <content type="html">&lt;h2&gt;How I migrated my old blog to a new blogging engine some late Sunday evening&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;25 January 2010 &amp;#8211; Logatec&lt;/p&gt;
-&lt;p&gt;It was fun.&lt;/p&gt;</content>
+&lt;p&gt;It was lots of fun.&lt;/p&gt;</content>
  </entry>
  
  
