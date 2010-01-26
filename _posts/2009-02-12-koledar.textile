@@ -13,4 +13,4 @@ p(meta). {{ page.time }} - {{ page.location }}
 Zadnjič sem imel nekaj idej za grafiko.
 Po zanimivem spletu okoliščin je vse skupaj končalo v obliki koledarja.
 
-Koledar najdete "tukaj":http://files.mihevc.org/razno/koledar.pdf. Predelajte, printajte, posiljajte ga kolikor zelite.
+Koledar najdete "tukaj":http://files.mihevc.org/mihevc.org/razno/koledar.pdf. Predelajte, printajte, posiljajte ga kolikor zelite.

@@ -15,8 +15,11 @@ p(meta). {{ page.time }} - {{ page.location }}
 Navodilo za uporabo:
 
   1. Namestite Search Unleashed bodisi skozi wordpressov vmesnik ali "takole":http://wordpress.org/extend/plugins/search-unleashed/installation/.
-  2. Prenesite in namestite "sl.mo":http://mihevc.org/files/search-unleashed/sl.mo v /%wordpressdir%/wp-content/plugins/search-unleashed/locale
+  
+  2. Prenesite in namestite "sl.mo":http://files.mihevc.org/mihevc.org/search-unleashed/sl.mo v /%wordpressdir%/wp-content/plugins/search-unleashed/locale
+  
   3. Uporabljajte & sporočite popravke
-  4. (Lahko pa prenesete tudi "sl.po":http://mihevc.org/files/search-unleashed/sl.po in ga urejate po svoje)
+  
+  4. (Lahko pa prenesete tudi "sl.po":http://files.mihevc.org/mihevc.org/search-unleashed/sl.po in ga urejate po svoje)
 
 Avtorju vtičnika sem posredoval prevod in morda ga bo vključil v uradno verzijo.

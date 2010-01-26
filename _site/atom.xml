@@ -4,7 +4,7 @@
  <title>Rokblog</title>
  <link href="http://mihevc.org/atom.xml" rel="self"/>
  <link href="http://mihevc.org/"/>
- <updated>2010-01-26T17:40:11+01:00</updated>
+ <updated>2010-01-26T18:00:46+01:00</updated>
  <id>http://mihevc.org/</id>
  <author>
    <name>Rok Mihevc</name>
@@ -35,9 +35,12 @@ Win.&lt;/p&gt;</content>
 &lt;p&gt;&lt;a href=&quot;http://urbangiraffe.com/plugins/search-unleashed/&quot;&gt;Search Unleashed&lt;/a&gt; je vtičnik za iskanje po wordpress blogih. V upanju, da mi kdaj pride prav, sem ga prevedel in ga tudi objavljam tukaj.&lt;/p&gt;
 &lt;p&gt;Navodilo za uporabo:&lt;/p&gt;
 1. Namestite Search Unleashed bodisi skozi wordpressov vmesnik ali &lt;a href=&quot;http://wordpress.org/extend/plugins/search-unleashed/installation/&quot;&gt;takole&lt;/a&gt;.
-2. Prenesite in namestite &lt;a href=&quot;http://mihevc.org/files/search-unleashed/sl.mo&quot;&gt;sl.mo&lt;/a&gt; v /%wordpressdir%/wp-content/plugins/search-unleashed/locale
+
+2. Prenesite in namestite &lt;a href=&quot;http://files.mihevc.org/mihevc.org/search-unleashed/sl.mo&quot;&gt;sl.mo&lt;/a&gt; v /%wordpressdir%/wp-content/plugins/search-unleashed/locale
+
 3. Uporabljajte &amp;amp; sporočite popravke
-4. (Lahko pa prenesete tudi &lt;a href=&quot;http://mihevc.org/files/search-unleashed/sl.po&quot;&gt;sl.po&lt;/a&gt; in ga urejate po svoje)
+
+4. (Lahko pa prenesete tudi &lt;a href=&quot;http://files.mihevc.org/mihevc.org/search-unleashed/sl.po&quot;&gt;sl.po&lt;/a&gt; in ga urejate po svoje)
 &lt;p&gt;Avtorju vtičnika sem posredoval prevod in morda ga bo vključil v uradno verzijo.&lt;/p&gt;</content>
  </entry>
  
@@ -51,9 +54,12 @@ Win.&lt;/p&gt;</content>
 &lt;p&gt;Thematic je odprtokodna wordpressova tema, ki jo je zelo lahko uporabljati in &lt;a href=&quot;http://themeshaper.com/thematic/guide/&quot;&gt;prilagajati&lt;/a&gt;, zanjo pa se najde veliko &lt;a href=&quot;http://themeshaper.com/category/thematic-child-themes/&quot;&gt;otroških tem&lt;/a&gt;, ki ji spremenijo izgled. Uporabil sem jo že na dveh projektih, zato sem se odločil, da jo tudi prevedem v slovenščino. Upam da še komu pride prav.&lt;/p&gt;
 &lt;p&gt;Navodilo za uporabo:&lt;/p&gt;
 1. &lt;a href=&quot;http://wordpress.org/extend/themes/thematic&quot;&gt;Prenesite Thematic&lt;/a&gt; in ga namestite v wordpress (/wordpressdir/wp-content/themes/thematic)
-2. Prenesite in namestite &lt;a href=&quot;http://mihevc.org/files/thematic/sl.mo&quot;&gt;sl.mo&lt;/a&gt; v Thematic (/wordpressdir/wp-content/themes/thematic/library/languages)
+
+2. Prenesite in namestite &lt;a href=&quot;http://files.mihevc.org/mihevc.org/thematic/sl.mo&quot;&gt;sl.mo&lt;/a&gt; v Thematic (/wordpressdir/wp-content/themes/thematic/library/languages)
+
 3. Divite se
-4. (Lahko pa prenesete tudi &lt;a href=&quot;http://mihevc.org/files/thematic/sl.po&quot;&gt;sl.po&lt;/a&gt; in ga urejate po svoje)
+
+4. (Lahko pa prenesete tudi &lt;a href=&quot;http://files.mihevc.org/mihevc.org/thematic/sl.po&quot;&gt;sl.po&lt;/a&gt; in ga urejate po svoje)
 &lt;p&gt;Seveda morate imeti prej urejeno slovensko lokalizacijo wordpressa.&lt;/p&gt;</content>
  </entry>
  
@@ -111,7 +117,7 @@ Win.&lt;/p&gt;</content>
 &lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
 &lt;p&gt;Zadnjič sem imel nekaj idej za grafiko.&lt;br /&gt;
 Po zanimivem spletu okoliščin je vse skupaj končalo v obliki koledarja.&lt;/p&gt;
-&lt;p&gt;Koledar najdete &lt;a href=&quot;http://files.mihevc.org/razno/koledar.pdf&quot;&gt;tukaj&lt;/a&gt;. Predelajte, printajte, posiljajte ga kolikor zelite.&lt;/p&gt;</content>
+&lt;p&gt;Koledar najdete &lt;a href=&quot;http://files.mihevc.org/mihevc.org/razno/koledar.pdf&quot;&gt;tukaj&lt;/a&gt;. Predelajte, printajte, posiljajte ga kolikor zelite.&lt;/p&gt;</content>
  </entry>
  
  <entry>
