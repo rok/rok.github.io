@@ -11,4 +11,7 @@ h2. {{ page.title }}
 p(meta). {{ page.time }} - {{ page.location }}
 
 It was a late Sunday evening.
-Blog engines were Wordpress and Jekyll, and it was a lot of fun.
+I migrated from Wordpress to Jekyll, and it was a lot of fun.
+
+I used feeburner for RSS, disqus for comments, textile for makup, google analytics for .. well analytics, heroku for hosting, dreamhost for DNS, google apps for mail, and git to deploy.
+Win.
