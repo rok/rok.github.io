@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Rokblog</title>
- <link href="http://rok.mihevc.org/atom.xml" rel="self"/>
- <link href="http://rok.mihevc.org/"/>
- <updated>2010-01-26T03:49:12+01:00</updated>
+ <link href="http://mihevc.org/atom.xml" rel="self"/>
+ <link href="http://mihevc.org/"/>
+ <updated>2010-01-26T05:36:46+01:00</updated>
  <id>http://rok.mihevc.org/</id>
  <author>
    <name>Rok Mihevc</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>How I migrated my old blog to a new blogging engine</title>
-   <link href="http://rok.mihevc.org//2010/01/26/how-i-migrated-my-old-blog-to-a-new-blogging-engine.html"/>
+   <link href="http://mihevc.org//2010/01/26/how-i-migrated-my-old-blog-to-a-new-blogging-engine.html"/>
    <updated>2010-01-26T00:00:00+01:00</updated>
    <id>http://rok.mihevc.org//2010/01/26/how-i-migrated-my-old-blog-to-a-new-blogging-engine</id>
    <content type="html">&lt;h2&gt;How I migrated my old blog to a new blogging engine&lt;/h2&gt;
@@ -27,7 +27,7 @@ Win.&lt;/p&gt;</content>
  
  <entry>
    <title>Lokalizacija Search Unleashed wordpress vticnika</title>
-   <link href="http://rok.mihevc.org//2009/12/11/lokalizacija-search-unleashed-wordpress-vticnika.html"/>
+   <link href="http://mihevc.org//2009/12/11/lokalizacija-search-unleashed-wordpress-vticnika.html"/>
    <updated>2009-12-11T00:00:00+01:00</updated>
    <id>http://rok.mihevc.org//2009/12/11/lokalizacija-search-unleashed-wordpress-vticnika</id>
    <content type="html">&lt;h2&gt;Lokalizacija Search Unleashed wordpress vticnika&lt;/h2&gt;
@@ -43,7 +43,7 @@ Win.&lt;/p&gt;</content>
  
  <entry>
    <title>Lokalizacija wordpress teme Thematic</title>
-   <link href="http://rok.mihevc.org//2009/11/21/lokalizacija-wordpress-teme-thematic.html"/>
+   <link href="http://mihevc.org//2009/11/21/lokalizacija-wordpress-teme-thematic.html"/>
    <updated>2009-11-21T00:00:00+01:00</updated>
    <id>http://rok.mihevc.org//2009/11/21/lokalizacija-wordpress-teme-thematic</id>
    <content type="html">&lt;h2&gt;Lokalizacija wordpress teme Thematic&lt;/h2&gt;
@@ -59,7 +59,7 @@ Win.&lt;/p&gt;</content>
  
  <entry>
    <title>Potuje se mi</title>
-   <link href="http://rok.mihevc.org//2009/02/13/potuje-se-mi.html"/>
+   <link href="http://mihevc.org//2009/02/13/potuje-se-mi.html"/>
    <updated>2009-02-13T00:00:00+01:00</updated>
    <id>http://rok.mihevc.org//2009/02/13/potuje-se-mi</id>
    <content type="html">&lt;h2&gt;Potuje se mi&lt;/h2&gt;
@@ -104,7 +104,7 @@ Win.&lt;/p&gt;</content>
  
  <entry>
    <title>Koledar</title>
-   <link href="http://rok.mihevc.org//2009/02/12/koledar.html"/>
+   <link href="http://mihevc.org//2009/02/12/koledar.html"/>
    <updated>2009-02-12T00:00:00+01:00</updated>
    <id>http://rok.mihevc.org//2009/02/12/koledar</id>
    <content type="html">&lt;h2&gt;Koledar&lt;/h2&gt;
@@ -116,7 +116,7 @@ Po zanimivem spletu okoliščin je vse skupaj končalo v obliki koledarja.&lt;/p
  
  <entry>
    <title>O energiji, casu, tehnologiji in ekonomicnosti</title>
-   <link href="http://rok.mihevc.org//2009/01/07/o-energiji%2C-casu%2C-tehnologiji-in-ekonomicnosti.html"/>
+   <link href="http://mihevc.org//2009/01/07/o-energiji%2C-casu%2C-tehnologiji-in-ekonomicnosti.html"/>
    <updated>2009-01-07T00:00:00+01:00</updated>
    <id>http://rok.mihevc.org//2009/01/07/o-energiji,-casu,-tehnologiji-in-ekonomicnosti</id>
    <content type="html">&lt;h2&gt;O energiji, casu, tehnologiji in ekonomicnosti&lt;/h2&gt;
