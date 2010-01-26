@@ -1,0 +1,17 @@
+---
+layout: post
+title: O energiji, casu, tehnologiji in ekonomicnosti
+tag: Razno
+location: Logatec
+time: 26 January 2010
+---
+ 
+h2. {{ page.title }}
+
+p(meta). {{ page.time }} - {{ page.location }}
+
+Všeč so mi spletne aplikacije, ki cenijo moj čas in energijo.
+Všeč mi je tehnologija, ki mi pomaga bolj ekonomično opravit vsakdanje naloge.
+Všeč so mi ljudje, ki izdelujejo tovrstne aplikacije in razvijajo tako tehnologijo, ker čutim da so med razvojem mislili tudi name, uporabnika in mi podarili lep prihranek časa.
+
+Primer take tehnologije je spletna aplikacija "Odpiralni Časi":http://odpiralnicasi.com. Fantje, hvala vam za čas, ki ga prihranim ko ne grem v zaprto trgovino, čas ko ne googlam najbližje trgovine in lep interface design vaše strani.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: How I migrated my old blog to a new blogging engine
+tag: Ruby
+location: Logatec
+time: 26 January 2010
+---
+ 
+h2. {{ page.title }}
+
+p(meta). {{ page.time }} - {{ page.location }}
+
+It was a late Sunday evening.
+Blog engines were Wordpress and Jekyll, and it was a lot of fun.
