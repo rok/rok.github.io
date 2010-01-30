@@ -14,12 +14,9 @@ Thematic je odprtokodna wordpressova tema, ki jo je zelo lahko uporabljati in "p
 
 Navodilo za uporabo:
 
-  1. "Prenesite Thematic":http://wordpress.org/extend/themes/thematic in ga namestite v wordpress (/wordpressdir/wp-content/themes/thematic)
-  
-  2. Prenesite in namestite "sl.mo":http://files.mihevc.org/mihevc.org/thematic/sl.mo v Thematic (/wordpressdir/wp-content/themes/thematic/library/languages)
-  
-  3. Divite se
-  
-  4. (Lahko pa prenesete tudi "sl.po":http://files.mihevc.org/mihevc.org/thematic/sl.po in ga urejate po svoje)
+# "Prenesite Thematic":http://wordpress.org/extend/themes/thematic in ga namestite v wordpress (/wordpressdir/wp-content/themes/thematic)
+# Prenesite in namestite "sl.mo":http://files.mihevc.org/mihevc.org/thematic/sl.mo v Thematic (/wordpressdir/wp-content/themes/thematic/library/languages)
+# Divite se
+# (Lahko pa prenesete tudi "sl.po":http://files.mihevc.org/mihevc.org/thematic/sl.po in ga urejate po svoje)
 
 Seveda morate imeti prej urejeno slovensko lokalizacijo wordpressa.
