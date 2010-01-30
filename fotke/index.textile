@@ -1,0 +1,8 @@
+---
+layout: page
+title: Moje fotke s flickra
+---
+ 
+h2. {{ page.title }}
+
+<iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=46913966@N02&set_id=72157623186697507&text=Canary+Islands" frameBorder="0" width="500" height="500" scrolling="no"></iframe><br/><small>Created with <a href="http://www.admarket.se" title="Admarket.se">Admarket's</a> <a href="http://flickrslidr.com" title="flickrSLiDR">flickrSLiDR</a>.</small>
