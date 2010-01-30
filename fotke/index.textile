@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Moje fotke s flickra
+title: Fotke
 ---
- 
-h2. {{ page.title }}
 
-<iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=46913966@N02&set_id=72157623186697507&text=Canary+Islands" frameBorder="0" width="587" height="500" scrolling="no"></iframe><br/><small><a href="http://www.flickr.com/photos/rokm/sets/72157623186697507/" >@flickr</a>.</small>
+<iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=46913966@N02&set_id=72157623186697507&text=Canary+Islands" frameBorder="0" width="587" height="500" scrolling="no"></iframe><br/>
