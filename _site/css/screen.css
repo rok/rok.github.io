@@ -71,13 +71,46 @@ ul.posts {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
- 
+
+/*****************************************************************************/
+/*
+/* Tweets
+/*
+/*****************************************************************************/
+
+#tweets { 
+	float: right; 
+	width: 240px; 
+	margin-right: 1em; 
+	margin-bottom: 45px; 
+	margin-top: 45px; 
+}
+#tweets h2 { 
+	margin-bottom: -5px; 
+}
+#tweets li { 
+	list-style-type: none; 
+	font-size: 12px; 
+	background: #eee; 
+	padding: 8px 10px; 
+	margin: 15px 0; 
+}
+#tweets li:after { 
+	content: ""; border: 8px solid transparent; 
+	border-top: 8px solid #eee; 
+	border-bottom: 0; 
+	width: 0; 
+	height: 0; 
+	display: block; 
+	margin: 5px 0 -15px 0; 
+}
+
 /*****************************************************************************/
 /*
 /* Site
 /*
 /*****************************************************************************/
- 
+
 .site {
   font-size: 110%;
   text-align: justify;
@@ -141,7 +174,7 @@ ul.posts {
       .site .footer .rss img {
         border: 0;
       }
- 
+
 /*****************************************************************************/
 /*
 /* Posts
