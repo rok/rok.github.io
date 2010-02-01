@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Rokblog</title>
+ <link href="http://mihevc.org/atom.xml" rel="self"/>
+ <link href="http://mihevc.org/"/>
+ <updated>2010-02-02T00:57:00+01:00</updated>
+ <id>http://mihevc.org/</id>
+ <author>
+   <name>Rok Mihevc</name>
+   <email>rok@mihevc.org</email>
+ </author>
+ 
+ 
+ <entry>
+   <title>V Ljubljani je minus 10C, smer jug</title>
+   <link href="http://mihevc.org//2010/02/01/v-ljubljani-je-minus-10c-smer-jug.html"/>
+   <updated>2010-02-01T00:00:00+01:00</updated>
+   <id>http://rok.mihevc.org//2010/02/01/v-ljubljani-je-minus-10c-smer-jug</id>
+   <content type="html">&lt;h2&gt;V Ljubljani je minus 10C, smer jug&lt;/h2&gt;
+&lt;p class=&quot;meta&quot;&gt;01 February 2010 &amp;#8211; Vlak Ljubljana &amp;#8211; Benetke&lt;/p&gt;
+&lt;p&gt;Vlak Budimpesta &amp;#8211; Benetke tokrat ni imel zamude, a kot ponavadi je vagon napol polen polspe�ih ljudi, nad katerimi bdi vljudni sprevodnik s sivimi brki, ki nam ob 2h zjutraj, preden �templja karte, za�eli dobro jutro.&lt;/p&gt;
+&lt;p&gt;Potujem na Kanarske otoke, na dogodek &amp;#8220;Canary Islands: Citizens Towards a United Europe&amp;#8221;, kjer bom eden od �tirih trainerjev za 30 udele�encev &amp;#8211; mladih iz 14 evropskih dr�av.&lt;br /&gt;
+Glavna organizatorka je moja prijateljica Kristina, ki jo poznam s podobnega dogodka v Indiji in �ivi v Las Palmas de Gran Canaria.&lt;/p&gt;
+&lt;p&gt;Dogodek se za�ne 8. februarja, jaz pa nameravam �as do za�etka porabiti za u�enje surfanja, ogled okolice in splo�no relaksacijo.&lt;/p&gt;
+&lt;p&gt;Na Gran Canari je 23�C.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>How I migrated my old blog to a new blogging engine</title>
+   <link href="http://mihevc.org//2010/01/26/how-i-migrated-my-old-blog-to-a-new-blogging-engine.html"/>
+   <updated>2010-01-26T00:00:00+01:00</updated>
+   <id>http://rok.mihevc.org//2010/01/26/how-i-migrated-my-old-blog-to-a-new-blogging-engine</id>
+   <content type="html">&lt;h2&gt;How I migrated my old blog to a new blogging engine&lt;/h2&gt;
+&lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
+&lt;p&gt;It was a late Sunday evening.&lt;br /&gt;
+I migrated from Wordpress to Jekyll, and it was a lot of fun.&lt;/p&gt;
+&lt;p&gt;I used feeburner for &lt;span class=&quot;caps&quot;&gt;RSS&lt;/span&gt;, disqus for comments, textile for makup, google analytics for .. well analytics, heroku for hosting, dreamhost for &lt;span class=&quot;caps&quot;&gt;DNS&lt;/span&gt;, google apps for mail, and git to deploy.&lt;br /&gt;
+Win.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Lokalizacija Search Unleashed wordpress vticnika</title>
+   <link href="http://mihevc.org//2009/12/11/lokalizacija-search-unleashed-wordpress-vticnika.html"/>
+   <updated>2009-12-11T00:00:00+01:00</updated>
+   <id>http://rok.mihevc.org//2009/12/11/lokalizacija-search-unleashed-wordpress-vticnika</id>
+   <content type="html">&lt;h2&gt;Lokalizacija Search Unleashed wordpress vticnika&lt;/h2&gt;
+&lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://urbangiraffe.com/plugins/search-unleashed/&quot;&gt;Search Unleashed&lt;/a&gt; je vtičnik za iskanje po wordpress blogih. V upanju, da mi kdaj pride prav, sem ga prevedel in ga tudi objavljam tukaj.&lt;/p&gt;
+&lt;p&gt;Navodilo za uporabo:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Namestite Search Unleashed bodisi skozi wordpressov vmesnik ali &lt;a href=&quot;http://wordpress.org/extend/plugins/search-unleashed/installation/&quot;&gt;takole&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;Prenesite in namestite &lt;a href=&quot;http://files.mihevc.org/mihevc.org/search-unleashed/sl.mo&quot;&gt;sl.mo&lt;/a&gt; v /%wordpressdir%/wp-content/plugins/search-unleashed/locale&lt;/li&gt;
+	&lt;li&gt;Uporabljajte &amp;amp; sporočite popravke&lt;/li&gt;
+	&lt;li&gt;(Lahko pa prenesete tudi &lt;a href=&quot;http://files.mihevc.org/mihevc.org/search-unleashed/sl.po&quot;&gt;sl.po&lt;/a&gt; in ga urejate po svoje)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Avtorju vtičnika sem posredoval prevod in morda ga bo vključil v uradno verzijo.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Lokalizacija wordpress teme Thematic</title>
+   <link href="http://mihevc.org//2009/11/21/lokalizacija-wordpress-teme-thematic.html"/>
+   <updated>2009-11-21T00:00:00+01:00</updated>
+   <id>http://rok.mihevc.org//2009/11/21/lokalizacija-wordpress-teme-thematic</id>
+   <content type="html">&lt;h2&gt;Lokalizacija wordpress teme Thematic&lt;/h2&gt;
+&lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
+&lt;p&gt;Thematic je odprtokodna wordpressova tema, ki jo je zelo lahko uporabljati in &lt;a href=&quot;http://themeshaper.com/thematic/guide/&quot;&gt;prilagajati&lt;/a&gt;, zanjo pa se najde veliko &lt;a href=&quot;http://themeshaper.com/category/thematic-child-themes/&quot;&gt;otroških tem&lt;/a&gt;, ki ji spremenijo izgled. Uporabil sem jo že na dveh projektih, zato sem se odločil, da jo tudi prevedem v slovenščino. Upam da še komu pride prav.&lt;/p&gt;
+&lt;p&gt;Navodilo za uporabo:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;a href=&quot;http://wordpress.org/extend/themes/thematic&quot;&gt;Prenesite Thematic&lt;/a&gt; in ga namestite v wordpress (/wordpressdir/wp-content/themes/thematic)&lt;/li&gt;
+	&lt;li&gt;Prenesite in namestite &lt;a href=&quot;http://files.mihevc.org/mihevc.org/thematic/sl.mo&quot;&gt;sl.mo&lt;/a&gt; v Thematic (/wordpressdir/wp-content/themes/thematic/library/languages)&lt;/li&gt;
+	&lt;li&gt;Divite se&lt;/li&gt;
+	&lt;li&gt;(Lahko pa prenesete tudi &lt;a href=&quot;http://files.mihevc.org/mihevc.org/thematic/sl.po&quot;&gt;sl.po&lt;/a&gt; in ga urejate po svoje)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Seveda morate imeti prej urejeno slovensko lokalizacijo wordpressa.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Potuje se mi</title>
+   <link href="http://mihevc.org//2009/02/13/potuje-se-mi.html"/>
+   <updated>2009-02-13T00:00:00+01:00</updated>
+   <id>http://rok.mihevc.org//2009/02/13/potuje-se-mi</id>
+   <content type="html">&lt;h2&gt;Potuje se mi&lt;/h2&gt;
+&lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
+&lt;p&gt;Zadnje čase me ima da bi kam šel. V knjigi Timothy Ferriss-a sem zasledil spodnji seznam uporabnih internetnih strani za planiranje potovanj in ga delim za vami.&lt;/p&gt;
+&lt;p&gt;Kam it?&lt;br /&gt;
+- &lt;a href=&quot;http://virtualtourist.com&quot;&gt;virtualtourist.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://outside.away.com&quot;&gt;outside.away.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://escapeartist.com&quot;&gt;escapeartist.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://gridskipper.com&quot;&gt;gridskipper.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://lonelyplanet.com/thorntree&quot;&gt;lonelyplanet.com/thorntree&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://worldtravelwatch.com&quot;&gt;worldtravelwatch.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tehnikalije&lt;br /&gt;
+- &lt;a href=&quot;http://kropla.com&quot;&gt;kropla.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://perpetualtravel.com/rtw&quot;&gt;perpetualtravel.com/rtw&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://xe.com&quot;&gt;xe.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Poceni potovanje &amp;amp; stanovanje&lt;br /&gt;
+- &lt;a href=&quot;http://orbitz.com&quot;&gt;orbitz.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://priceline.com&quot;&gt;priceline.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://globalfreeloaders.com&quot;&gt;globalfreeloaders.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://couchsurfing.com&quot;&gt;couchsurfing.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://hospitalityclub.org&quot;&gt;hospitalityclub.org&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://homeexchange.com&quot;&gt;homeexchange.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://hostels.com&quot;&gt;hostels.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://hotelchatter.com&quot;&gt;hotelchatter.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://craigslist.org&quot;&gt;craigslist.org&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://interhome.com&quot;&gt;interhome.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://rentvillas.com&quot;&gt;rentvillas.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Gadgeti&lt;br /&gt;
+- &lt;a href=&quot;http://gotomypc.com&quot;&gt;gotomypc.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://myworldphone.com&quot;&gt;myworldphone.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://solio.com&quot;&gt;solio.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kaj poceti tam?&lt;br /&gt;
+- &lt;a href=&quot;http://transitionsabroad.com&quot;&gt;transitionsabroad.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://meetup.com&quot;&gt;meetup.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://writtenroad.com&quot;&gt;writtenroad.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://eslcafe.com&quot;&gt;eslcafe.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://jiwire.com&quot;&gt;jiwire.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://workingoverseas.com&quot;&gt;workingoverseas.com&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://wwoof.org&quot;&gt;wwoof.org&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Koledar</title>
+   <link href="http://mihevc.org//2009/02/12/koledar.html"/>
+   <updated>2009-02-12T00:00:00+01:00</updated>
+   <id>http://rok.mihevc.org//2009/02/12/koledar</id>
+   <content type="html">&lt;h2&gt;Koledar&lt;/h2&gt;
+&lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
+&lt;p&gt;Zadnjič sem imel nekaj idej za grafiko.&lt;br /&gt;
+Po zanimivem spletu okoliščin je vse skupaj končalo v obliki koledarja.&lt;/p&gt;
+&lt;p&gt;Koledar najdete &lt;a href=&quot;http://files.mihevc.org/mihevc.org/razno/koledar.pdf&quot;&gt;tukaj&lt;/a&gt;. Predelajte, printajte, posiljajte ga kolikor zelite.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>O energiji, casu, tehnologiji in ekonomicnosti</title>
+   <link href="http://mihevc.org//2009/01/07/o-energiji-casu-tehnologiji-in-ekonomicnosti.html"/>
+   <updated>2009-01-07T00:00:00+01:00</updated>
+   <id>http://rok.mihevc.org//2009/01/07/o-energiji-casu-tehnologiji-in-ekonomicnosti</id>
+   <content type="html">&lt;h2&gt;O energiji, casu, tehnologiji in ekonomicnosti&lt;/h2&gt;
+&lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
+&lt;p&gt;Všeč so mi spletne aplikacije, ki cenijo moj čas in energijo.&lt;br /&gt;
+Všeč mi je tehnologija, ki mi pomaga bolj ekonomično opravit vsakdanje naloge.&lt;br /&gt;
+Všeč so mi ljudje, ki izdelujejo tovrstne aplikacije in razvijajo tako tehnologijo, ker čutim da so med razvojem mislili tudi name, uporabnika in mi podarili lep prihranek časa.&lt;/p&gt;
+&lt;p&gt;Primer take tehnologije je spletna aplikacija &lt;a href=&quot;http://odpiralnicasi.com&quot;&gt;Odpiralni Časi&lt;/a&gt;. Fantje, hvala vam za čas, ki ga prihranim ko ne grem v zaprto trgovino, čas ko ne googlam najbližje trgovine in lep interface design vaše strani.&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
