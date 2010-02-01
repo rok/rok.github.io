@@ -1,6 +1,6 @@
 ---
 layout: post
-title: V Ljubljani je minus 10C, smer jug
+title: V Ljubljani je minus 10c, smer jug
 tag: potovanje
 location: Vlak Ljubljana - Benetke
 time: 01 February 2010
