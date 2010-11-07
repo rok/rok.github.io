@@ -1,0 +1,13 @@
+---
+layout: post
+title: Going to India
+tag: India trip wedding
+location: India
+time: 07 November 2010
+---
+ 
+h2. {{ page.title }}
+
+p(meta). {{ page.time }} - {{ page.location }}
+
+Tadeja and I are going to a friends wedding in Saharanpur, India and we'll be "tumbling about it":http://t-i-r.tumblr.com/ .
