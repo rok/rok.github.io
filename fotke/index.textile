@@ -1,6 +1,0 @@
----
-layout: page
-title: Fotke
----
-
-<iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=46913966@N02&set_id=72157623186697507&text=Canary+Islands" frameBorder="0" width="587" height="500" scrolling="no"></iframe><br/>

@@ -1,8 +1,0 @@
----
-layout: page
-title: Projekti
----
- 
-h2. {{ page.title }}
-
-Prihajajo.

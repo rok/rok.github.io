@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fotke
+title: Photos
 ---
 
 h2. Picasa albums
