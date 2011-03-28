@@ -24,4 +24,4 @@ p(meta). {{ page.time }} - {{ page.location }}
 EOF
 end
 #system "mate #{file}"
-system "e #{file}"
+system "notepad++ #{file}"
