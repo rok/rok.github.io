@@ -4,13 +4,35 @@
  <title>Rokblog</title>
  <link href="http://mihevc.org/atom.xml" rel="self"/>
  <link href="http://mihevc.org/"/>
- <updated>2011-03-29T13:24:01+02:00</updated>
+ <updated>2012-02-28T16:36:08+01:00</updated>
  <id>http://mihevc.org/</id>
  <author>
    <name>Rok Mihevc</name>
    <email>rok@mihevc.org</email>
  </author>
  
+ 
+ <entry>
+   <title>Wordpress at Dreamhost hacked</title>
+   <link href="http://mihevc.org//2012/02/28/wordpress-at-dreamhost-hacked.html"/>
+   <updated>2012-02-28T00:00:00+01:00</updated>
+   <id>http://rok.mihevc.org//2012/02/28/wordpress-at-dreamhost-hacked</id>
+   <content type="html">&lt;h2&gt;Wordpress at Dreamhost hacked&lt;/h2&gt;
+&lt;p class=&quot;meta&quot;&gt;28 February 2012 &amp;#8211; Logatec&lt;/p&gt;
+&lt;p&gt;Recently someone got access into admin area of my wordpress sites. It would appear that he added a small piece of code into one php file via the embedded wordpress editor. This thing ran itself via the eval function and copied into each .php file of wordpress (~400 files), then served some adds on the website via a .js file.&lt;br /&gt;
+Fortunately solution to this is googlable and is a bash-fu script, see below:&lt;/p&gt;
+&lt;pre&gt;
+find . -type d -perm -o=w -print -exec chmod 770 {} \;
+find . -wholename '*wp-content/uploads/*.php' -exec rm -rf {} \;
+find ./ -name &quot;*.php&quot; -type f |  xargs sed -i 's#&amp;lt;?php /\*\*/ eval(base64_decode(&quot;aWY.*?&amp;gt;##g' 2&amp;gt;&amp;amp;1
+find ./ -name &quot;*.php&quot; -type f |  xargs sed -i '/./,$!d' 2&amp;gt;&amp;amp;1
+&lt;/pre&gt;
+&lt;p&gt;&lt;b&gt;Sources&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;sup class=&quot;footnote&quot; id=&quot;fnr1&quot;&gt;&lt;a href=&quot;#fn1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;a href=&quot;http://danhilltech.tumblr.com/post/18085864093/if-you-get-eval-base64-hacked-on-wordpress-dreamhost&quot;&gt;http://danhilltech.tumblr.com/post/18085864093/if-you-get-eval-base64-hacked-on-wordpress-dreamhost&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;sup class=&quot;footnote&quot; id=&quot;fnr2&quot;&gt;&lt;a href=&quot;#fn2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;a href=&quot;http://blog.sucuri.net/2010/05/simple-cleanup-solution-for-the-latest-wordpress-hack.html&quot;&gt;http://blog.sucuri.net/2010/05/simple-cleanup-solution-for-the-latest-wordpress-hack.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
  
  <entry>
    <title>Moving - part 1 - Lichtenberg - Schoneberg</title>
@@ -37,9 +59,9 @@ I&amp;#8217;m not sure what to make of this move actually. I&amp;#8217;m still c
  
  <entry>
    <title>V Ljubljani je minus 10C, smer jug</title>
-   <link href="http://mihevc.org//2010/02/01/v-ljubljani-je-minus-10c-smer-jug.html"/>
+   <link href="http://mihevc.org//2010/02/01/v-ljubljani-je-minus-10C-smer-jug.html"/>
    <updated>2010-02-01T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2010/02/01/v-ljubljani-je-minus-10c-smer-jug</id>
+   <id>http://rok.mihevc.org//2010/02/01/v-ljubljani-je-minus-10C-smer-jug</id>
    <content type="html">&lt;h2&gt;V Ljubljani je minus 10C, smer jug&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;01 February 2010 &amp;#8211; Vlak Ljubljana &amp;#8211; Benetke&lt;/p&gt;
 &lt;p&gt;Vlak Budimpesta &amp;#8211; Benetke tokrat ni imel zamude, a kot ponavadi je vagon napol polen polspeèih ljudi, nad katerimi bdi vljudni sprevodnik s sivimi brki, ki nam ob 2h zjutraj, preden štemplja karte, zaželi dobro jutro.&lt;/p&gt;

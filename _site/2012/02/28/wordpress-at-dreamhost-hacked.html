@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Projects</title>
+   <title>Wordpress at Dreamhost hacked</title>
    <meta name="author" content="Rok Mihevc" />
    <link href="http://feeds.feedburner.com/rokblogrok" rel="alternate" title="Rokblog" type="application/atom+xml" />
  
@@ -36,25 +36,39 @@
   </div>
   
   <div id="post">
-<p><em>various little things I did</em></p>
-<h2>Projects</h2>
+<h2>Wordpress at Dreamhost hacked</h2>
+<p class="meta">28 February 2012 &#8211; Logatec</p>
+<p>Recently someone got access into admin area of my wordpress sites. It would appear that he added a small piece of code into one php file via the embedded wordpress editor. This thing ran itself via the eval function and copied into each .php file of wordpress (~400 files), then served some adds on the website via a .js file.<br />
+Fortunately solution to this is googlable and is a bash-fu script, see below:</p>
+<pre>
+find . -type d -perm -o=w -print -exec chmod 770 {} \;
+find . -wholename '*wp-content/uploads/*.php' -exec rm -rf {} \;
+find ./ -name "*.php" -type f |  xargs sed -i 's#&lt;?php /\*\*/ eval(base64_decode("aWY.*?&gt;##g' 2&gt;&amp;1
+find ./ -name "*.php" -type f |  xargs sed -i '/./,$!d' 2&gt;&amp;1
+</pre>
+<p><b>Sources</b></p>
 <ul>
-	<li><a href="http://t-i-r.tumblr.com/">Tadeja-India-Rok photoblog</a></li>
-	<li><a href="http://www.gasperosolnik.com">gasperosolnik.com</a></li>
-	<li><a href="http://hisanasprotsonca.si/">Hisa nasprot sonca</a></li>
-	<li><a href="http://www.ideasdecolores.org">Centro Intercultural Ideas de Colores</a></li>
-	<li><a href="http://www.karamausa.org/">Karama <span class="caps">USA</span></a></li>
-	<li><a href="http://www.kiberpipa.org/~best/courses/sc2006/">Crash course 2006 &#8211; Academical course about car industry</a></li>
+	<li><sup class="footnote" id="fnr1"><a href="#fn1">1</a></sup><a href="http://danhilltech.tumblr.com/post/18085864093/if-you-get-eval-base64-hacked-on-wordpress-dreamhost">http://danhilltech.tumblr.com/post/18085864093/if-you-get-eval-base64-hacked-on-wordpress-dreamhost</a></li>
+	<li><sup class="footnote" id="fnr2"><a href="#fn2">2</a></sup>:<a href="http://blog.sucuri.net/2010/05/simple-cleanup-solution-for-the-latest-wordpress-hack.html">http://blog.sucuri.net/2010/05/simple-cleanup-solution-for-the-latest-wordpress-hack.html</a></li>
 </ul>
-<h2>Associations</h2>
-<ul>
-	<li><a href="http://www.aikilo.si/">Aikido klub Logatec</a></li>
-	<li><a href="http://www.log.sik.si/">Public library of Logatec</a></li>
-	<li><a href="http://www.tedxljubljana.com/">TEDxLjubljana</a></li>
-	<li><a href="http://www.toastmasters.si/">Toastmasters Ljubljana</a></li>
-	<li><a href="http://www.bestljubljana.si/"><span class="caps">BEST</span> Ljubljana</a></li>
-</ul>
+ <div id="disqus">
+   <div id="disqus_thread"></div><script type="text/javascript"   src="http://disqus.com/forums/rokblog/embed.js"></script><noscript><a   href="http://disqus.com/forums/rokblog/?url=ref">Poglej nit diskusije.</a></noscript><a href="http://disqus.com" class="dsq-brlink">komentarji via <span class="logo-disqus">Disqus</span></a>
+  </div>
 </div>
+ 
+<div id="related">
+  <h2>Podobne objave</h2>
+  <ul class="posts">
+    
+      <li><span>29 Mar 2011</span> &raquo; <a href="/2011/03/29/moving---part-1---lichtenberg---schoneberg.html">Moving - part 1 - Lichtenberg - Schoneberg</a></li>
+    
+      <li><span>07 Nov 2010</span> &raquo; <a href="/2010/11/07/going-to-india.html">Going to India</a></li>
+    
+      <li><span>01 Feb 2010</span> &raquo; <a href="/2010/02/01/v-ljubljani-je-minus-10C-smer-jug.html">V Ljubljani je minus 10C, smer jug</a></li>
+    
+  </ul>
+</div>
+ 
   
   <div class="footer">
     <div class="contact">
