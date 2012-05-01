@@ -4,7 +4,7 @@
  <title>Rokblog</title>
  <link href="http://mihevc.org/atom.xml" rel="self"/>
  <link href="http://mihevc.org/"/>
- <updated>2012-05-01T16:09:30+02:00</updated>
+ <updated>2012-05-01T17:01:54+02:00</updated>
  <id>http://mihevc.org/</id>
  <author>
    <name>Rok Mihevc</name>
@@ -18,7 +18,28 @@
    <updated>2012-05-01T00:00:00+02:00</updated>
    <id>http://rok.mihevc.org//2012/05/01/howto---debian-live-nas-with-usb</id>
    <content type="html">&lt;h2&gt;HowTo &amp;#8211; Debian Live &lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt; with &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt;&lt;/h2&gt;
-&lt;p class=&quot;meta&quot;&gt;01 May 2012 &amp;#8211; Logatec&lt;/p&gt;</content>
+&lt;p class=&quot;meta&quot;&gt;01 May 2012 &amp;#8211; Logatec&lt;/p&gt;
+&lt;p&gt;I had an old computer or two lying around, so I decided to cannabalize them and make a cheap &lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt; with the old disks. The main ideaa were to keep it easy to maintain and to buy no extra components.&lt;br /&gt;
+Here&amp;#8217;s what I did:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Hardware: I used an old desktop computer with &lt;span class=&quot;caps&quot;&gt;BIOS&lt;/span&gt; that can boot from &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; and an old 1GB &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; stick (500 mb would be enough)&lt;/li&gt;
+	&lt;li&gt;I downloaded &lt;a href=&quot;launchpad.net/win32-image-writer&quot;&gt;Image Writer for Windows&lt;/a&gt; and burnt &lt;a href=&quot;http://cdimage.debian.org/cdimage/release/current-live/i386/usb-hdd/&quot;&gt;Debian Live image&lt;/a&gt; (debian-live-6.0.4-i386-standard.img in my case &amp;#8211; I only wanted the command line) to the &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt;.&lt;/li&gt;
+	&lt;li&gt;Plugged the &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; in and opened &lt;span class=&quot;caps&quot;&gt;BIOS&lt;/span&gt;, to set it as first in the boot order.&lt;/li&gt;
+	&lt;li&gt;In the boot manager press Esc and write &amp;#8220;live persistent&amp;#8221;.&lt;/li&gt;
+	&lt;li&gt;Install some packages needed &amp;#8211; &amp;#8220;sudo apt-get install parted ssh samba ntfs-3g hdparm&amp;#8221;&lt;/li&gt;
+	&lt;li&gt;Partition the nonpartitioned part of the &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; by: &amp;#8220;parted /dev/sda&amp;#8221; (where /dev/sda is the &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; stick you&amp;#8217;re using). Use &amp;#8220;help mkpart&amp;#8221; and &amp;#8220;print&amp;#8221; to help with partitioning. Make a new partition by e.g.: &amp;#8220;mkpart primary 302MB 1011MB&amp;#8221;.&lt;/li&gt;
+	&lt;li&gt;Make a filesystem on the new partition: &amp;#8220;mkfs -t ext2 -L live-rw /dev/sda2&amp;#8221;&lt;/li&gt;
+	&lt;li&gt;Configure the bootloader, so it boots automaticaly after 5 seconds: &amp;#8220;sudo nano /live/image/syslinux/syslinux.cfg&amp;#8221;&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;INSTRUCTIONS&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;HERE&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;Make default booting option a persistent one &amp;#8220;sudo nano /live/image/syslinux/live.cfg&amp;#8221;&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;INSTRUCTIONS&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;HERE&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;Add some password for minimal security: &amp;#8220;sudo passwd root&amp;#8221; and &amp;#8220;sudo passwd user&amp;#8221;&lt;/li&gt;
+	&lt;li&gt;Find the hard disks designations (in my case all partitions were &lt;span class=&quot;caps&quot;&gt;NTFS&lt;/span&gt;): &amp;#8220;sudo fdisk -l | grep &lt;span class=&quot;caps&quot;&gt;NTFS&lt;/span&gt;&amp;#8221; and add them into /etc/fstabs: &amp;#8220;/dev/sda1 /mnt/windows ntfs-3g defaults 0 0&amp;#8221; to have them mounted on startup.&lt;/li&gt;
+	&lt;li&gt;To have disks spin down if idle edit /etc/hdparm.conf: &amp;#8220;/dev/sda { spindown_time = 120 }&amp;#8221;&lt;/li&gt;
+	&lt;li&gt;Configure samba, to have it share the disks within your network. See &lt;a href=&quot;http://www.debuntu.org/guest-file-sharing-with-samba&quot;&gt;this&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The result should be a &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; stick which boots up a nice light debian system, shares your files accross the &lt;span class=&quot;caps&quot;&gt;LAN&lt;/span&gt; and is easy to maintain if you have basic Linux knowledge.&lt;br /&gt;
+I might improve the power consumption my setup in the future by replacing the old computer with a &lt;a href=&quot;http://www.raspberrypi.org/&quot;&gt;Raspberry Pi&lt;/a&gt; to make the whole thing much smaller and economical (supposedly it only consumes ~5W).&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -68,9 +89,9 @@ I&amp;#8217;m not sure what to make of this move actually. I&amp;#8217;m still c
  
  <entry>
    <title>V Ljubljani je minus 10C, smer jug</title>
-   <link href="http://mihevc.org//2010/02/01/v-ljubljani-je-minus-10C-smer-jug.html"/>
+   <link href="http://mihevc.org//2010/02/01/v-ljubljani-je-minus-10c-smer-jug.html"/>
    <updated>2010-02-01T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2010/02/01/v-ljubljani-je-minus-10C-smer-jug</id>
+   <id>http://rok.mihevc.org//2010/02/01/v-ljubljani-je-minus-10c-smer-jug</id>
    <content type="html">&lt;h2&gt;V Ljubljani je minus 10C, smer jug&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;01 February 2010 &amp;#8211; Vlak Ljubljana &amp;#8211; Benetke&lt;/p&gt;
 &lt;p&gt;Vlak Budimpesta &amp;#8211; Benetke tokrat ni imel zamude, a kot ponavadi je vagon napol polen polspeèih ljudi, nad katerimi bdi vljudni sprevodnik s sivimi brki, ki nam ob 2h zjutraj, preden štemplja karte, zaželi dobro jutro.&lt;/p&gt;

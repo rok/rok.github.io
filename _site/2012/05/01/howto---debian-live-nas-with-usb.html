@@ -37,6 +37,27 @@
   <div id="post">
 <h2>HowTo &#8211; Debian Live <span class="caps">NAS</span> with <span class="caps">USB</span></h2>
 <p class="meta">01 May 2012 &#8211; Logatec</p>
+<p>I had an old computer or two lying around, so I decided to cannabalize them and make a cheap <span class="caps">NAS</span> with the old disks. The main ideaa were to keep it easy to maintain and to buy no extra components.<br />
+Here&#8217;s what I did:</p>
+<ol>
+	<li>Hardware: I used an old desktop computer with <span class="caps">BIOS</span> that can boot from <span class="caps">USB</span> and an old 1GB <span class="caps">USB</span> stick (500 mb would be enough)</li>
+	<li>I downloaded <a href="launchpad.net/win32-image-writer">Image Writer for Windows</a> and burnt <a href="http://cdimage.debian.org/cdimage/release/current-live/i386/usb-hdd/">Debian Live image</a> (debian-live-6.0.4-i386-standard.img in my case &#8211; I only wanted the command line) to the <span class="caps">USB</span>.</li>
+	<li>Plugged the <span class="caps">USB</span> in and opened <span class="caps">BIOS</span>, to set it as first in the boot order.</li>
+	<li>In the boot manager press Esc and write &#8220;live persistent&#8221;.</li>
+	<li>Install some packages needed &#8211; &#8220;sudo apt-get install parted ssh samba ntfs-3g hdparm&#8221;</li>
+	<li>Partition the nonpartitioned part of the <span class="caps">USB</span> by: &#8220;parted /dev/sda&#8221; (where /dev/sda is the <span class="caps">USB</span> stick you&#8217;re using). Use &#8220;help mkpart&#8221; and &#8220;print&#8221; to help with partitioning. Make a new partition by e.g.: &#8220;mkpart primary 302MB 1011MB&#8221;.</li>
+	<li>Make a filesystem on the new partition: &#8220;mkfs -t ext2 -L live-rw /dev/sda2&#8221;</li>
+	<li>Configure the bootloader, so it boots automaticaly after 5 seconds: &#8220;sudo nano /live/image/syslinux/syslinux.cfg&#8221;</li>
+	<li><span class="caps">INSTRUCTIONS</span> <span class="caps">HERE</span></li>
+	<li>Make default booting option a persistent one &#8220;sudo nano /live/image/syslinux/live.cfg&#8221;</li>
+	<li><span class="caps">INSTRUCTIONS</span> <span class="caps">HERE</span></li>
+	<li>Add some password for minimal security: &#8220;sudo passwd root&#8221; and &#8220;sudo passwd user&#8221;</li>
+	<li>Find the hard disks designations (in my case all partitions were <span class="caps">NTFS</span>): &#8220;sudo fdisk -l | grep <span class="caps">NTFS</span>&#8221; and add them into /etc/fstabs: &#8220;/dev/sda1 /mnt/windows ntfs-3g defaults 0 0&#8221; to have them mounted on startup.</li>
+	<li>To have disks spin down if idle edit /etc/hdparm.conf: &#8220;/dev/sda { spindown_time = 120 }&#8221;</li>
+	<li>Configure samba, to have it share the disks within your network. See <a href="http://www.debuntu.org/guest-file-sharing-with-samba">this</a></li>
+</ol>
+<p>The result should be a <span class="caps">USB</span> stick which boots up a nice light debian system, shares your files accross the <span class="caps">LAN</span> and is easy to maintain if you have basic Linux knowledge.<br />
+I might improve the power consumption my setup in the future by replacing the old computer with a <a href="http://www.raspberrypi.org/">Raspberry Pi</a> to make the whole thing much smaller and economical (supposedly it only consumes ~5W).</p>
  <div id="disqus">
    <div id="disqus_thread"></div><script type="text/javascript"   src="http://disqus.com/forums/rokblog/embed.js"></script><noscript><a   href="http://disqus.com/forums/rokblog/?url=ref">Poglej nit diskusije.</a></noscript><a href="http://disqus.com" class="dsq-brlink">komentarji via <span class="logo-disqus">Disqus</span></a>
   </div>
