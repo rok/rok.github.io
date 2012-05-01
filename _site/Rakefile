@@ -19,5 +19,5 @@ task :deploy do
   system "jekyll"
   system "git add _posts/* _site/*"
   system 'git commit -m "updated page"'
-  system "git push dreamhost master"
+  system "git push heroku master"
 end

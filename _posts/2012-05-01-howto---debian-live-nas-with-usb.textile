@@ -1,0 +1,12 @@
+---
+layout: post
+title: HowTo - Debian Live NAS with USB
+tag: NAS Linux Live Debian USB
+location: Logatec
+time: 01 May 2012
+---
+ 
+h2. {{ page.title }}
+
+p(meta). {{ page.time }} - {{ page.location }}
+
