@@ -10,7 +10,7 @@ h2. {{ page.title }}
 
 p(meta). {{ page.time }} - {{ page.location }}
 
-I had an old computer or two lying around, so I decided to cannabalize them and make a cheap "NAS":http://en.wikipedia.org/wiki/Network-attached_storage with the old disks. The main ideaa were to keep it easy to maintain and to buy no extra components.
+I had an old computer or two lying around, so I decided to cannabalize them and make a cheap "NAS":http://en.wikipedia.org/wiki/Network-attached_storage with the old disks. The main ideas were to keep it easy to maintain and to buy no extra components.
 Here's what I did:
 
 # Hardware: I used an old desktop computer with BIOS that can boot from USB and an old 1GB USB stick (500 mb would be enough)
