@@ -1,3 +1,3 @@
-require "rack/jekyll"
- 
-run Rack::Jekyll.new(:desination => "_site")
+require 'rack/jekyll'
+
+run Rack::Jekyll.new
