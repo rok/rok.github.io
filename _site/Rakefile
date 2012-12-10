@@ -17,7 +17,7 @@ end
 desc "deploy site to Heroku and Github"
 task :deploy do
   system "jekyll"
-  system "git add _posts/* _site/*"
+  system "git add _posts/*"
   system 'git commit -m "updated page"'
   system "git push heroku master"
 end
