@@ -21,16 +21,24 @@
 </head>
 <body>
 
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+{% if page.locale != nil %}{% assign locale = page.locale%}{% endif %}
+
 <div class="site">
   <div class="title">
-    <a href="/">Rok Mihevc</a>
-    <a class="extra" href="/photos.html">Photos</a>
-    <a class="extra" href="/projects.html">Projects</a>
-	<a class="extra" href="/travel.html">Travel</a>
-	<a class="extra" href="http://linkedin.com/in/rokmihevc/">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://feeds.feedburner.com/rokblogrok">
-		<img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-    </a>
+	{% assign link2 = page.url | truncate: 3, "" %}
+    {% for link in site.locales[locale].nav %}
+      {% assign current = nil %}
+      {% if page.url == link.url or link2 == link.url %}
+        {% assign current = 'current' %}
+      {% endif %}
+    <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+    {% endfor %}	
+	
+	<a class="" href="http://linkedin.com/in/rokmihevc/">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://feeds.feedburner.com/rokblogrok"><img src="/images/rss.png" alt="Subscribe to RSS Feed" /></a>
+	{% if locale == "en" %}<a href="{{ site.url }}/si"><img src="{{ site.url }}/images/si.jpg" height="22px" /></a>{% endif %}
+	{% if locale == "si" %}<a href="{{ site.url }}/en"><img src="{{ site.url }}/images/en.jpg" height="22px" /></a>{% endif %}
 
   </div>
   

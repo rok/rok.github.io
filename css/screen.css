@@ -126,18 +126,18 @@ ul.posts {
 }
  
   .site .title a {
-    color: #a00;
+    color: #aaa;
     text-decoration: none;
-  }
+    margin-right: 1em;
+	}
  
   .site .title a:hover {
     color: black;
   }
  
-  .site .title a.extra {
-    color: #aaa;
+  .site .title a.current {
+    color: #a00;
     text-decoration: none;
-    margin-left: 1em;
   }
  
   .site .title a.extra:hover {

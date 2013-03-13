@@ -4,6 +4,7 @@ title: Going to India
 tag: India trip wedding
 location: India
 time: 07 November 2010
+locale: en
 ---
  
 h2. {{ page.title }}

@@ -1,93 +1,38 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
- 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Rokblog</title>
-   <meta name="author" content="Rok Mihevc" />
-   <link href="http://feeds.feedburner.com/rokblogrok" rel="alternate" title="Rokblog" type="application/atom+xml" />
- 
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
- 
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+<html><head>
 
-   <!-- Typekit -->
-   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script>
+//Enter ISO 639-2 letter Language codes to detect (see: http://www.w3.org/WAI/ER/IG/ert/iso639.htm):
+var langcodes=new Array("sl", "default")
+var langredirects=new Array("/si", "/en")
 
-</head>
-<body>
+var languageinfo=navigator.language? navigator.language : navigator.userLanguage
+var gotodefault=1
 
-<div class="site">
-  <div class="title">
-    <a href="/">Rok Mihevc</a>
-    <a class="extra" href="/photos.html">Photos</a>
-    <a class="extra" href="/projects.html">Projects</a>
-	<a class="extra" href="/travel.html">Travel</a>
-	<a class="extra" href="http://linkedin.com/in/rokmihevc/">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://feeds.feedburner.com/rokblogrok">
-		<img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-    </a>
+function redirectpage(dest){
+if (window.location.replace)
+window.location.replace(dest)
+else
+window.location=dest
+}
 
-  </div>
-  
-  <div id="home">
-  <h1>Objave</h1>
-  <ul class="posts">
-    
-      <li><span>01 May 2012</span> &raquo; <a href="/2012/05/01/howto---debian-live-nas-with-usb.html">HowTo - Debian Live NAS with USB</a></li>
-    
-      <li><span>28 Feb 2012</span> &raquo; <a href="/2012/02/28/wordpress-at-dreamhost-hacked.html">Wordpress at Dreamhost hacked</a></li>
-    
-      <li><span>29 Mar 2011</span> &raquo; <a href="/2011/03/29/moving---part-1---lichtenberg---schoneberg.html">Moving - part 1 - Lichtenberg - Schoneberg</a></li>
-    
-      <li><span>07 Nov 2010</span> &raquo; <a href="/2010/11/07/going-to-india.html">Going to India</a></li>
-    
-      <li><span>01 Feb 2010</span> &raquo; <a href="/2010/02/01/v-ljubljani-je-minus-10c-smer-jug.html">V Ljubljani je minus 10C, smer jug</a></li>
-    
-      <li><span>26 Jan 2010</span> &raquo; <a href="/2010/01/26/how-i-migrated-my-old-blog-to-a-new-blogging-engine.html">How I migrated my old blog to a new blogging engine</a></li>
-    
-      <li><span>11 Dec 2009</span> &raquo; <a href="/2009/12/11/lokalizacija-search-unleashed-wordpress-vticnika.html">Lokalizacija Search Unleashed wordpress vticnika</a></li>
-    
-      <li><span>21 Nov 2009</span> &raquo; <a href="/2009/11/21/lokalizacija-wordpress-teme-thematic.html">Lokalizacija wordpress teme Thematic</a></li>
-    
-      <li><span>13 Feb 2009</span> &raquo; <a href="/2009/02/13/potuje-se-mi.html">Potuje se mi</a></li>
-    
-      <li><span>12 Feb 2009</span> &raquo; <a href="/2009/02/12/koledar.html">Koledar</a></li>
-    
-      <li><span>07 Jan 2009</span> &raquo; <a href="/2009/01/07/o-energiji-casu-tehnologiji-in-ekonomicnosti.html">O energiji, casu, tehnologiji in ekonomicnosti</a></li>
-    
-  </ul>
-  
-  <div class="footer">
-    <div class="contact">
-      <p>
-        Rok Mihevc<br />
-        rok@mihevc.org<br />
-		+386 31 369 171
-      </p>
-    </div>
-    <div class="contact">
-      <p>
-      	<a href="http://facebook.com/rok.mihevc/">facebook.com/rok.mihevc</a><br />
-		<a href="http://linkedin.com/in/rokmihevc/">linkedin.com/in/rokmihevc</a><br />
-        <a href="http://github.com/rok/">github.com/rok</a><br />
-      </p>
-    </div>
-  </div>
-</div>
- 
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+for (i=0;i<langcodes.length-1;i++){
+if (languageinfo.substr(0,2)==langcodes[i]){
+redirectpage(langredirects[i])
+gotodefault=0
+break
+}
+}
+
+if (gotodefault)
+redirectpage(langredirects[langcodes.length-1])
 </script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-6800318-1");
-pageTracker._trackPageview();
-</script>
- 
-</body>
-</html>
+
+</head><body>
+<b><br /><br /><br /><br />
+Èe vas ni preusmerilo, kliknite <a href="/si">tukaj.</a>
+<br /><br /><br /><br />
+/
+<br /><br /><br /><br />
+If you were not redirected click <a href="/en">here.</a>
+</b>
+</body></html>

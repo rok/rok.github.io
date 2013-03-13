@@ -4,7 +4,7 @@
  <title>Rokblog</title>
  <link href="http://mihevc.org/atom.xml" rel="self"/>
  <link href="http://mihevc.org/"/>
- <updated>2012-12-10T14:39:10+01:00</updated>
+ <updated>2013-03-13T16:33:14+01:00</updated>
  <id>http://mihevc.org/</id>
  <author>
    <name>Rok Mihevc</name>
@@ -16,7 +16,7 @@
    <title>HowTo - Debian Live NAS with USB</title>
    <link href="http://mihevc.org//2012/05/01/howto---debian-live-nas-with-usb.html"/>
    <updated>2012-05-01T00:00:00+02:00</updated>
-   <id>http://rok.mihevc.org//2012/05/01/howto---debian-live-nas-with-usb</id>
+   <id>http://mihevc.org//2012/05/01/howto---debian-live-nas-with-usb</id>
    <content type="html">&lt;h2&gt;HowTo &amp;#8211; Debian Live &lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt; with &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt;&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;01 May 2012 &amp;#8211; Logatec&lt;/p&gt;
 &lt;p&gt;I had an old computer or two lying around, so I decided to cannabalize them and make a cheap &lt;a href=&quot;http://en.wikipedia.org/wiki/Network-attached_storage&quot;&gt;&lt;span class=&quot;caps&quot;&gt;NAS&lt;/span&gt;&lt;/a&gt; with the old disks. The main ideas were to keep it easy to maintain and to buy no extra components.&lt;br /&gt;
@@ -46,7 +46,7 @@ I might improve the power consumption my setup in the future by replacing the ol
    <title>Wordpress at Dreamhost hacked</title>
    <link href="http://mihevc.org//2012/02/28/wordpress-at-dreamhost-hacked.html"/>
    <updated>2012-02-28T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2012/02/28/wordpress-at-dreamhost-hacked</id>
+   <id>http://mihevc.org//2012/02/28/wordpress-at-dreamhost-hacked</id>
    <content type="html">&lt;h2&gt;Wordpress at Dreamhost hacked&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;28 February 2012 &amp;#8211; Logatec&lt;/p&gt;
 &lt;p&gt;Recently someone got access into admin area of my wordpress sites. It would appear that he added a small piece of code into one php file via the embedded wordpress editor. This thing ran itself via the eval function and copied into each .php file of wordpress (~400 files), then served some adds on the website via a .js file.&lt;br /&gt;
@@ -68,7 +68,7 @@ find ./ -name &quot;*.php&quot; -type f |  xargs sed -i '/./,$!d' 2&amp;gt;&amp;
    <title>Moving - part 1 - Lichtenberg - Schoneberg</title>
    <link href="http://mihevc.org//2011/03/29/moving---part-1---lichtenberg---schoneberg.html"/>
    <updated>2011-03-29T00:00:00+02:00</updated>
-   <id>http://rok.mihevc.org//2011/03/29/moving---part-1---lichtenberg---schoneberg</id>
+   <id>http://mihevc.org//2011/03/29/moving---part-1---lichtenberg---schoneberg</id>
    <content type="html">&lt;h2&gt;Moving &amp;#8211; part 1 &amp;#8211; Lichtenberg &amp;#8211; Schoneberg&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;29 March 2011 &amp;#8211; Berlin&lt;/p&gt;
 &lt;p&gt;After living in &lt;a href=&quot;http://www.studentenwerk-berlin.de/wohnen/studentische_wohnanlagen/biesdorf/index.html&quot;&gt;Victor Jara Wohnheim&lt;/a&gt; in Biesdorf for six months, I&amp;#8217;m moving to a sublet room in &lt;a href=&quot;http://maps.google.com/maps?q=Potsdamer+Stra%C3%9Fe+103,+Berlin,+Nem%C4%8Dija&amp;amp;layer=c&amp;amp;sll=52.500457,13.363674&amp;amp;cbp=13,124.49,,0,-7.69&amp;amp;cbll=52.500501,13.363416&amp;amp;hl=sl&amp;amp;sspn=0.006295,0.006295&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=Potsdamer+Stra%C3%9Fe+103,+Berlin+10785+Berlin,+Nem%C4%8Dija&amp;amp;ll=52.500503,13.36342&amp;amp;spn=0.003827,0.009645&amp;amp;z=17&amp;amp;panoid=O-OZ4t56FHdgs6a3vwuY5A&quot;&gt;Potsdamerstrasse&lt;/a&gt; for one month, before moving on to find something together with Tadeja for the rest of my stay in Berlin.&lt;br /&gt;
@@ -81,7 +81,7 @@ I&amp;#8217;m not sure what to make of this move actually. I&amp;#8217;m still c
    <title>Going to India</title>
    <link href="http://mihevc.org//2010/11/07/going-to-india.html"/>
    <updated>2010-11-07T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2010/11/07/going-to-india</id>
+   <id>http://mihevc.org//2010/11/07/going-to-india</id>
    <content type="html">&lt;h2&gt;Going to India&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;07 November 2010 &amp;#8211; India&lt;/p&gt;
 &lt;p&gt;Tadeja and I are going to a friends wedding in Saharanpur, India and we&amp;#8217;ll be &lt;a href=&quot;http://t-i-r.tumblr.com/&quot;&gt;tumbling about it&lt;/a&gt; .&lt;/p&gt;</content>
@@ -91,7 +91,7 @@ I&amp;#8217;m not sure what to make of this move actually. I&amp;#8217;m still c
    <title>V Ljubljani je minus 10C, smer jug</title>
    <link href="http://mihevc.org//2010/02/01/v-ljubljani-je-minus-10c-smer-jug.html"/>
    <updated>2010-02-01T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2010/02/01/v-ljubljani-je-minus-10c-smer-jug</id>
+   <id>http://mihevc.org//2010/02/01/v-ljubljani-je-minus-10c-smer-jug</id>
    <content type="html">&lt;h2&gt;V Ljubljani je minus 10C, smer jug&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;01 February 2010 &amp;#8211; Vlak Ljubljana &amp;#8211; Benetke&lt;/p&gt;
 &lt;p&gt;Vlak Budimpesta &amp;#8211; Benetke tokrat ni imel zamude, a kot ponavadi je vagon napol polen polspe�ih ljudi, nad katerimi bdi vljudni sprevodnik s sivimi brki, ki nam ob 2h zjutraj, preden �templja karte, za�eli dobro jutro.&lt;/p&gt;
@@ -105,7 +105,7 @@ Glavna organizatorka je moja prijateljica Kristina, ki jo poznam s podobnega dog
    <title>How I migrated my old blog to a new blogging engine</title>
    <link href="http://mihevc.org//2010/01/26/how-i-migrated-my-old-blog-to-a-new-blogging-engine.html"/>
    <updated>2010-01-26T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2010/01/26/how-i-migrated-my-old-blog-to-a-new-blogging-engine</id>
+   <id>http://mihevc.org//2010/01/26/how-i-migrated-my-old-blog-to-a-new-blogging-engine</id>
    <content type="html">&lt;h2&gt;How I migrated my old blog to a new blogging engine&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
 &lt;p&gt;It was a late Sunday evening.&lt;br /&gt;
@@ -118,7 +118,7 @@ Win.&lt;/p&gt;</content>
    <title>Lokalizacija Search Unleashed wordpress vticnika</title>
    <link href="http://mihevc.org//2009/12/11/lokalizacija-search-unleashed-wordpress-vticnika.html"/>
    <updated>2009-12-11T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2009/12/11/lokalizacija-search-unleashed-wordpress-vticnika</id>
+   <id>http://mihevc.org//2009/12/11/lokalizacija-search-unleashed-wordpress-vticnika</id>
    <content type="html">&lt;h2&gt;Lokalizacija Search Unleashed wordpress vticnika&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://urbangiraffe.com/plugins/search-unleashed/&quot;&gt;Search Unleashed&lt;/a&gt; je vtičnik za iskanje po wordpress blogih. V upanju, da mi kdaj pride prav, sem ga prevedel in ga tudi objavljam tukaj.&lt;/p&gt;
@@ -136,7 +136,7 @@ Win.&lt;/p&gt;</content>
    <title>Lokalizacija wordpress teme Thematic</title>
    <link href="http://mihevc.org//2009/11/21/lokalizacija-wordpress-teme-thematic.html"/>
    <updated>2009-11-21T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2009/11/21/lokalizacija-wordpress-teme-thematic</id>
+   <id>http://mihevc.org//2009/11/21/lokalizacija-wordpress-teme-thematic</id>
    <content type="html">&lt;h2&gt;Lokalizacija wordpress teme Thematic&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
 &lt;p&gt;Thematic je odprtokodna wordpressova tema, ki jo je zelo lahko uporabljati in &lt;a href=&quot;http://themeshaper.com/thematic/guide/&quot;&gt;prilagajati&lt;/a&gt;, zanjo pa se najde veliko &lt;a href=&quot;http://themeshaper.com/category/thematic-child-themes/&quot;&gt;otroških tem&lt;/a&gt;, ki ji spremenijo izgled. Uporabil sem jo že na dveh projektih, zato sem se odločil, da jo tudi prevedem v slovenščino. Upam da še komu pride prav.&lt;/p&gt;
@@ -154,7 +154,7 @@ Win.&lt;/p&gt;</content>
    <title>Potuje se mi</title>
    <link href="http://mihevc.org//2009/02/13/potuje-se-mi.html"/>
    <updated>2009-02-13T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2009/02/13/potuje-se-mi</id>
+   <id>http://mihevc.org//2009/02/13/potuje-se-mi</id>
    <content type="html">&lt;h2&gt;Potuje se mi&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
 &lt;p&gt;Zadnje čase me ima da bi kam šel. V knjigi Timothy Ferriss-a sem zasledil spodnji seznam uporabnih internetnih strani za planiranje potovanj in ga delim za vami.&lt;/p&gt;
@@ -199,7 +199,7 @@ Win.&lt;/p&gt;</content>
    <title>Koledar</title>
    <link href="http://mihevc.org//2009/02/12/koledar.html"/>
    <updated>2009-02-12T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2009/02/12/koledar</id>
+   <id>http://mihevc.org//2009/02/12/koledar</id>
    <content type="html">&lt;h2&gt;Koledar&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
 &lt;p&gt;Zadnjič sem imel nekaj idej za grafiko.&lt;br /&gt;
@@ -211,7 +211,7 @@ Po zanimivem spletu okoliščin je vse skupaj končalo v obliki koledarja.&lt;/p
    <title>O energiji, casu, tehnologiji in ekonomicnosti</title>
    <link href="http://mihevc.org//2009/01/07/o-energiji-casu-tehnologiji-in-ekonomicnosti.html"/>
    <updated>2009-01-07T00:00:00+01:00</updated>
-   <id>http://rok.mihevc.org//2009/01/07/o-energiji-casu-tehnologiji-in-ekonomicnosti</id>
+   <id>http://mihevc.org//2009/01/07/o-energiji-casu-tehnologiji-in-ekonomicnosti</id>
    <content type="html">&lt;h2&gt;O energiji, casu, tehnologiji in ekonomicnosti&lt;/h2&gt;
 &lt;p class=&quot;meta&quot;&gt;26 January 2010 &amp;#8211; Logatec&lt;/p&gt;
 &lt;p&gt;Všeč so mi spletne aplikacije, ki cenijo moj čas in energijo.&lt;br /&gt;

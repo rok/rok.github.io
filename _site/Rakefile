@@ -14,10 +14,10 @@ namespace :post do
   end
 end
  
-desc "deploy site to Heroku and Github"
+desc "deploy site to Dreamhost and Github"
 task :deploy do
   system "jekyll"
-  system "git add _posts/*"
+  system "git add _posts/* _site/*"
   system 'git commit -m "updated page"'
-  system "git push heroku master"
+  system "git push dreamhost master"
 end

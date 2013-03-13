@@ -4,6 +4,7 @@ title: Potuje se mi
 tag: Potovanja
 location: Logatec
 time: 26 January 2010
+locale: si
 ---
  
 h2. {{ page.title }}

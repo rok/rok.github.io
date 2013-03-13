@@ -4,6 +4,7 @@ title: O energiji, casu, tehnologiji in ekonomicnosti
 tag: Razno
 location: Logatec
 time: 26 January 2010
+locale: si
 ---
  
 h2. {{ page.title }}

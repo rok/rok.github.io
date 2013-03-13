@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Travel
+locale: en
 ---
  
 h2. My current location

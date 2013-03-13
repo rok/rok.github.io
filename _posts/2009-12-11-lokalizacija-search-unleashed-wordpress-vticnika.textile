@@ -4,6 +4,7 @@ title: Lokalizacija Search Unleashed wordpress vticnika
 tag: wordpress
 location: Logatec
 time: 26 January 2010
+locale: si
 ---
  
 h2. {{ page.title }}

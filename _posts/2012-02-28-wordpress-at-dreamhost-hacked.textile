@@ -4,6 +4,7 @@ title: Wordpress at Dreamhost hacked
 tag: wordpress hosting dreamhost hacked bash php
 location: Logatec
 time: 28 February 2012
+locale: en
 ---
  
 h2. {{ page.title }}

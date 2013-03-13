@@ -4,6 +4,7 @@ title: Lokalizacija wordpress teme Thematic
 tag: Wordpress
 location: Logatec
 time: 26 January 2010
+locale: si
 ---
  
 h2. {{ page.title }}

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+locale: en
 ---
 
 _various little things I did_

@@ -1,0 +1,6 @@
+rake build      # build the jekyll page
+rake deploy     # deploy site to Heroku and Github
+rake launch     # launch default browser
+rake post:new   # Create a new post and edit in Notepad++
+rake rebuild    # rebuild the jekyll page
+rake web:start  # run server and browser

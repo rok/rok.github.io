@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Photos
+locale: en
 ---
 
 h2. Picasa albums

@@ -4,6 +4,7 @@ title: Moving - part 1 - Lichtenberg - Schoneberg
 tag: Berlin travel
 location: Berlin
 time: 29 March 2011
+locale: en
 ---
  
 h2. {{ page.title }}
