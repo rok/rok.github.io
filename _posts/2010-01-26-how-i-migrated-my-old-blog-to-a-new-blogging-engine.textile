@@ -4,7 +4,7 @@ title: How I migrated my old blog to a new blogging engine
 tag: Ruby
 location: Logatec
 time: 26 January 2010
-locale: si
+locale: en
 ---
  
 h2. {{ page.title }}
