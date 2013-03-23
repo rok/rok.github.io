@@ -17,7 +17,7 @@ end
 desc "deploy site to Dreamhost and Github"
 task :deploy do
   system "jekyll"
-  system "git add _posts/* _site/*"
-  system 'git commit -m "updated page"'
+  system "git add ."
+  system 'git commit -m "scripted update"'
   system "git push dreamhost master"
 end
