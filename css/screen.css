@@ -17,8 +17,8 @@ html, body {
  
 body {
   background-color: white;
-  font: 13.34px Calluna, helvetica, arial, clean, sans-serif,
-  *font-size: small;
+  font-size: small;
+  font-family: "calluna";
   text-align: center;
 }
  
@@ -68,7 +68,6 @@ ul.posts {
  
   ul.posts span {
     color: #aaa;
-    font-family: Calluna, "Courier New", monospace;
     font-size: 80%;
   }
 

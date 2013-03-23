@@ -20,4 +20,5 @@ task :deploy do
   system "git add ."
   system 'git commit -m "scripted update"'
   system "git push dreamhost master"
+  system "git push origin master"
 end
