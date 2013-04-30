@@ -1,5 +1,7 @@
 print "Title: "
 title = gets.chomp
+print "Language (si/en): "
+locale = gets.chomp
 print "Tag: "
 tag = gets.chomp
 print "Location: "
@@ -15,6 +17,7 @@ title: #{title}
 tag: #{tag}
 location: #{location}
 time: #{time}
+locale: #{locale}
 ---
  
 h2. {{ page.title }}

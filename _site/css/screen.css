@@ -17,17 +17,19 @@ html, body {
  
 body {
   background-color: white;
-  font-size: small;
-  font-family: "calluna";
+  font-family: "calluna", serif;
   text-align: center;
 }
  
 h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
   font-size: 100%;
 }
  
 h1 {
   margin-bottom: 1em;
+  background-color: #BADA55;
+  padding: 1em;
 }
  
 p {
@@ -73,55 +75,23 @@ ul.posts {
 
 /*****************************************************************************/
 /*
-/* Tweets
-/*
-/*****************************************************************************/
-
-#tweets { 
-	float: right; 
-	width: 240px; 
-	margin-right: 1em; 
-	margin-bottom: 45px; 
-	margin-top: 45px; 
-}
-#tweets h2 { 
-	margin-bottom: -5px; 
-}
-#tweets li { 
-	list-style-type: none; 
-	font-size: 12px; 
-	background: #eee; 
-	padding: 8px 10px; 
-	margin: 15px 0; 
-}
-#tweets li:after { 
-	content: ""; border: 8px solid transparent; 
-	border-top: 8px solid #eee; 
-	border-bottom: 0; 
-	width: 0; 
-	height: 0; 
-	display: block; 
-	margin: 5px 0 -15px 0; 
-}
-
-/*****************************************************************************/
-/*
 /* Site
 /*
 /*****************************************************************************/
 
 .site {
-  font-size: 110%;
   text-align: justify;
   width: 40em;
-  margin: 3em auto 2em auto;
+  margin: 1em auto 1em auto;
   line-height: 1.5em;
 }
  
 .title {
+  font-family: sans-serif;
+  font-size: 120%;
   color: #a00;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
  
   .site .title a {

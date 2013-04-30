@@ -4,7 +4,7 @@ desc "rebuild the site and start the server"
 task :preview do
   system "rm -rf _site"
   system "jekyll --server --auto"
-  system "open _site/index.html"
+#  system "open _site/index.html"
 end
 
 namespace :post do
