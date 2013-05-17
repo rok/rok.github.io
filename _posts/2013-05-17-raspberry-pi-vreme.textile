@@ -1,0 +1,26 @@
+---
+layout: post
+title: Raspberry Pi vreme
+tag: raspberry
+location: Logatec
+time: 17 May 2013
+locale: si
+---
+ 
+h2. {{ page.title }}
+
+p(meta). {{ page.time }} - {{ page.location }}
+
+Temperatura 2x
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0ApLORVVUOSbDdDdtNGVjNDJOLU01QVhtTmVMX09fTXc&transpose=0&headers=1&merge=COLS&range=0!A1%3AB18%2C1!B1%3AB18&rtyp=GID&pub=1","options":{"titleTextStyle":{"fontSize":16},"vAxes":[{"title":"Left vertical axis title","useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"displayAnnotations":true,"title":"Chart title","booleanRole":"certainty","height":408,"animation":{"duration":500},"width":604,"hAxis":{"title":"Horizontal axis title","useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},"wmode":"opaque"},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"AnnotatedTimeLine","chartName":"Chart 1"} </script>
+
+Tlak 1x
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0ApLORVVUOSbDdDdtNGVjNDJOLU01QVhtTmVMX09fTXc&transpose=0&headers=1&merge=COLS&range=A1%3AA18%2CC1%3AC18&gid=0&pub=1","options":{"displayAnnotations":true,"vAxes":[{"useFormatFromData":true,"title":"Left vertical axis title","minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"titleTextStyle":{"fontSize":16},"booleanRole":"certainty","title":"Chart title","height":339,"animation":{"duration":500},"width":605,"wmode":"opaque","hAxis":{"useFormatFromData":true,"title":"Horizontal axis title","minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"AnnotatedTimeLine","chartName":"Chart 2"} </script>
+
+Vlaga 1x
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0ApLORVVUOSbDdDdtNGVjNDJOLU01QVhtTmVMX09fTXc&transpose=0&headers=1&merge=COLS&range=A1%3AA18%2CC1%3AC18&gid=1&pub=1","options":{"displayAnnotations":true,"vAxes":[{"useFormatFromData":true,"title":"Left vertical axis title","minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"titleTextStyle":{"fontSize":16},"booleanRole":"certainty","title":"Chart title","height":360,"animation":{"duration":500},"legend":"right","width":614,"wmode":"opaque","hAxis":{"useFormatFromData":true,"title":"Horizontal axis title","minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}},"state":{},"view":{},"isDefaultVisualization":true,"chartType":"AnnotatedTimeLine","chartName":"Chart 3"} </script>
+
+Opis sledi.
