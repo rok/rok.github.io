@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: O energiji, casu, tehnologiji in ekonomicnosti
 tag: Razno
