@@ -1,4 +1,4 @@
-ï»¿---
+---
 layout: post
 title: V Ljubljani je minus 10C, smer jug
 tag: potovanje
@@ -11,11 +11,11 @@ h2. {{ page.title }}
 
 p(meta). {{ page.time }} - {{ page.location }}
 
-Vlak Budimpesta - Benetke tokrat ni imel zamude, a kot ponavadi je vagon napol polen polspeÄih ljudi, nad katerimi bdi vljudni sprevodnik s sivimi brki, ki nam ob 2h zjutraj, preden Å¡templja karte, zaÅ¾eli dobro jutro.
+Vlak Budimpesta - Benetke tokrat ni imel zamude, a kot ponavadi je vagon napol polen polspeèih ljudi, nad katerimi bdi vljudni sprevodnik s sivimi brki, ki nam ob 2h zjutraj, preden štemplja karte, zaeli dobro jutro.
 
-Potujem na Kanarske otoke, na dogodek "Canary Islands: Citizens Towards a United Europe", kjer bom eden od Å¡tirih trainerjev za 30 udeleÅ¾encev - mladih iz 14 evropskih drÅ¾av.
-Glavna organizatorka je moja prijateljica Kristina, ki jo poznam s podobnega dogodka v Indiji in Å¾ivi v Las Palmas de Gran Canaria.
+Potujem na Kanarske otoke, na dogodek "Canary Islands: Citizens Towards a United Europe", kjer bom eden od štirih trainerjev za 30 udeleencev - mladih iz 14 evropskih drav.
+Glavna organizatorka je moja prijateljica Kristina, ki jo poznam s podobnega dogodka v Indiji in ivi v Las Palmas de Gran Canaria.
 
-Dogodek se zaÄne 8. februarja, jaz pa nameravam Äas do zaÄetka porabiti za uÄenje surfanja, ogled okolice in sploÅ¡no relaksacijo.
+Dogodek se zaène 8. februarja, jaz pa nameravam èas do zaèetka porabiti za uèenje surfanja, ogled okolice in splošno relaksacijo.
 
-Na Gran Canari je 23Â°C.
+Na Gran Canari je 23°C.
