@@ -3,12 +3,12 @@ task :default => :preview
 desc "rebuild the site and start the server"
 task :preview do
   system "rm -rf _site"
-  system "jekyll --server --auto"
-#  system "open _site/index.html"
+  system "jekyll serve watch"
+  system "open _site/index.html"
 end
 
 namespace :post do
-  desc "Create a new post and edit in Notepad++"
+  desc "Create a new post"
   task :new do
     system "ruby create.rb"
   end
