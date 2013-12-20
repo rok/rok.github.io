@@ -1,8 +1,4 @@
 safe: false
-auto: true
-server: true
-server_port: 4000
-url: http://localhost:4000
 exclude: ['Rakefile','create.rb','README']
 source: .
 destination: ./_site
