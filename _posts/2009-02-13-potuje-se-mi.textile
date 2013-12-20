@@ -11,7 +11,7 @@ h2. {{ page.title }}
 
 p(meta). {{ page.time }} - {{ page.location }}
 
-Zadnje čase me ima da bi kam šel. V knjigi Timothy Ferriss-a sem zasledil spodnji seznam uporabnih internetnih strani za planiranje potovanj in ga delim za vami.
+Zadnje čase me ima da bi kam šel. V knjigi Timothy Ferriss-a sem zasledil spodnji seznam uporabnih internetnih strani za planiranje potovanj in ga delim z vami.
 
 Kam it?
 - "virtualtourist.com":http://virtualtourist.com
