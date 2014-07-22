@@ -1,27 +1,6 @@
-safe: false
-exclude: ['Rakefile','create.rb','README']
-source: .
-destination: ./_site
-
-pygments: true
-locales:
-  en:
-    nav:
-    - text: Rok Mihevc
-      url: /en
-    - text: Photo
-      url: /photos.html
-    - text: Projects
-      url: /projects.html
-    - text: Travel
-      url: /travel.html
-  si:
-    nav:
-    - text: Rok Mihevc
-      url: /si
-    - text: Foto
-      url: /photos.html
-    - text: Projekti
-      url: /projects.html
-    - text: Potovanja
-      url: /travel.html
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+exclude: ['LICENSE','README.md']
+baseurl:
+markdown: kramdown

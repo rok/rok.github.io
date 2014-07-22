@@ -1,16 +1,9 @@
-﻿---
+---
 layout: post
 title: O energiji, casu, tehnologiji in ekonomicnosti
 tag: Razno
 location: Logatec
-time: 26 January 2010
-locale: si
 ---
- 
-h2. {{ page.title }}
-
-p(meta). {{ page.time }} - {{ page.location }}
-
 Všeč so mi spletne aplikacije, ki cenijo moj čas in energijo.
 Všeč mi je tehnologija, ki mi pomaga bolj ekonomično opravit vsakdanje naloge.
 Všeč so mi ljudje, ki izdelujejo tovrstne aplikacije in razvijajo tako tehnologijo, ker čutim da so med razvojem mislili tudi name, uporabnika in mi podarili lep prihranek časa.

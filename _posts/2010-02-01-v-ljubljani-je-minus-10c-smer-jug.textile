@@ -3,14 +3,7 @@ layout: post
 title: V Ljubljani je minus 10C, smer jug
 tag: potovanje
 location: Vlak Ljubljana - Benetke
-time: 01 February 2010
-locale: si
 ---
- 
-h2. {{ page.title }}
-
-p(meta). {{ page.time }} - {{ page.location }}
-
 Vlak Budimpesta - Benetke tokrat ni imel zamude, a kot ponavadi je vagon napol polen polspečih ljudi, nad katerimi bdi vljudni sprevodnik s sivimi brki, ki nam ob 2h zjutraj, preden štemplja karte, zaželi dobro jutro.
 
 Potujem na Kanarske otoke, na dogodek "Canary Islands: Citizens Towards a United Europe", kjer bom eden od štirih trainerjev za 30 udeležencev - mladih iz 14 evropskih držav.

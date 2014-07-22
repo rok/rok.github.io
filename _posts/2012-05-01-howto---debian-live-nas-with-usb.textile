@@ -3,14 +3,7 @@ layout: post
 title: HowTo - Debian Live NAS with USB
 tag: NAS Linux Live Debian USB
 location: Logatec
-time: 01 May 2012
-locale: en
 ---
- 
-h2. {{ page.title }}
-
-p(meta). {{ page.time }} - {{ page.location }}
-
 I had an old computer or two lying around, so I decided to cannabalize them and make a cheap "NAS":http://en.wikipedia.org/wiki/Network-attached_storage with the old disks. The main ideas were to keep it easy to maintain and to buy no extra components.
 Here's what I did:
 

@@ -1,16 +1,9 @@
-﻿---
+---
 layout: post
 title: Lokalizacija Search Unleashed wordpress vticnika
 tag: wordpress
 location: Logatec
-time: 26 January 2010
-locale: si
 ---
- 
-h2. {{ page.title }}
-
-p(meta). {{ page.time }} - {{ page.location }}
-
 "Search Unleashed":http://urbangiraffe.com/plugins/search-unleashed/ je vtičnik za iskanje po wordpress blogih. V upanju, da mi kdaj pride prav, sem ga prevedel in ga tudi objavljam tukaj.
 
 Navodilo za uporabo:

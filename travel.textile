@@ -1,9 +1,0 @@
----
-layout: page
-title: Travel
-locale: en
----
- 
-h2. My current location
-
-<iframe src="http://www.google.com/latitude/apps/badge/api?user=-2673247260015395724&type=iframe&maptype=roadmap&hl=sl" width="450" height="300" frameborder="0"></iframe>

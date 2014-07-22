@@ -3,14 +3,7 @@ layout: post
 title: Wordpress at Dreamhost hacked
 tag: wordpress hosting dreamhost hacked bash php
 location: Logatec
-time: 28 February 2012
-locale: en
 ---
- 
-h2. {{ page.title }}
-
-p(meta). {{ page.time }} - {{ page.location }}
-
 Recently someone got access into admin area of my wordpress sites. It would appear that he added a small piece of code into one php file via the embedded wordpress editor. This thing ran itself via the eval function and copied into each .php file of wordpress (~400 files), then served some adds on the website via a .js file.
 Fortunately solution to this is googlable and is a bash-fu script, see below:
 

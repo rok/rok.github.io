@@ -3,14 +3,7 @@ layout: post
 title: Raspberry Pi based wireless motion triggered camera
 tag: raspberry linux video
 location: Logatec
-time: 25 April 2013
-locale: en
 ---
- 
-h2. {{ page.title }}
-
-p(meta). {{ page.time }} - {{ page.location }}
-
 h3. The setup
 
 To start the project I wrote a fresh image of "Raspbian wheezy":http://www.raspberrypi.org/downloads onto a 4GB SD card with "win32diskimager":http://sourceforge.net/projects/win32diskimager/.
@@ -103,12 +96,13 @@ crontab -e
 {% endhighlight %}
 Add the following line at the end
 {% highlight bash %}
-*/5 * * * * sudo /usr/local/bin/WiFi_Check 
+*/5 * * * * sudo /usr/local/bin/WiFi_Check
 {% endhighlight %}
 
 Finaly we reboot to finish setting up.
 {% highlight bash %}
 sudo reboot
 {% endhighlight %}
+
 Now we unplug the wired connecition and set up the camera and Pi in the desired position and see if everything works.
 You can tweak the /etc/motion/motion.conf settings for higher resolution etc.

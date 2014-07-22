@@ -1,16 +1,9 @@
-﻿---
+---
 layout: post
 title: Koledar
 tag: Razno
 location: Logatec
-time: 26 January 2010
-locale: si
 ---
- 
-h2. {{ page.title }}
-
-p(meta). {{ page.time }} - {{ page.location }}
-
 Zadnjič sem imel nekaj idej za grafiko.
 Po zanimivem spletu okoliščin je vse skupaj končalo v obliki koledarja.
 

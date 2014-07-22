@@ -1,16 +1,9 @@
-﻿---
+---
 layout: post
 title: Lokalizacija wordpress teme Thematic
 tag: Wordpress
 location: Logatec
-time: 26 January 2010
-locale: si
 ---
- 
-h2. {{ page.title }}
-
-p(meta). {{ page.time }} - {{ page.location }}
-
 Thematic je odprtokodna wordpressova tema, ki jo je zelo lahko uporabljati in "prilagajati":http://themeshaper.com/thematic/guide/, zanjo pa se najde veliko "otroških tem":http://themeshaper.com/category/thematic-child-themes/, ki ji spremenijo izgled. Uporabil sem jo že na dveh projektih, zato sem se odločil, da jo tudi prevedem v slovenščino. Upam da še komu pride prav.
 
 Navodila za uporabo:

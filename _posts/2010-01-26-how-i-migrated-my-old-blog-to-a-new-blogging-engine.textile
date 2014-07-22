@@ -3,14 +3,7 @@ layout: post
 title: How I migrated my old blog to a new blogging engine
 tag: Ruby
 location: Logatec
-time: 26 January 2010
-locale: en
 ---
- 
-h2. {{ page.title }}
-
-p(meta). {{ page.time }} - {{ page.location }}
-
 It was a late Sunday evening.
 I migrated from Wordpress to Jekyll, and it was a lot of fun.
 
