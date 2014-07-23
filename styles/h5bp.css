@@ -65,14 +65,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
+.splash img {
+  background:#f0f0f0;
+  margin:0 auto;
+  display:block;
+  max-width:100%;
+  width:100%;
+  }
 
 
 
