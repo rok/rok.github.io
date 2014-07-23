@@ -2,5 +2,5 @@ gems:
   - jekyll-sitemap
   - jekyll-redirect-from
 exclude: ['LICENSE','README.md']
-baseurl: /
+baseurl:
 markdown: kramdown
