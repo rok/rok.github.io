@@ -8,7 +8,9 @@ layout: default
     {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
   {% endif %}
 
-  <img src='{{url}}' alt='' class='splash' />
+  <div class='splash'>
+    <img src='{{url}}' alt='' />
+  </div>
 {% endif %}
 
 <h2 id="title">{{page.title}}</h2>
