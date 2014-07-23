@@ -8,4 +8,4 @@ title: About
 - +386 31 369 171
 - [github.com/rok/](http://github.com/rok/)
 - [linkedin.com/in/rokmihevc/](http://linkedin.com/in/rokmihevc/)
-- [CV]({{site.baseurl}}/files/Rok_Mihevc_CV.pdf)
+- [CV](/files/Rok_Mihevc_CV.pdf)
