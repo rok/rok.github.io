@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+{% if page.splash %}
+  {% if page.splash contains 'http' %}
+    {% capture url %}{{page.splash}}{% endcapture %}
+  {% else %}
+    {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
+  {% endif %}
+
+  <div class='col12 splash'>
+    <img src='{{url}}' alt='' />
+  </div>
+{% endif %}
+
 <h2 id="title">{{page.title}}</h2>
   <span>
     {{ page.date | date: '%B %d, %Y' }}{% if page.location != null %}, @{{ page.location }} {% endif %}
