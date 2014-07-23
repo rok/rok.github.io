@@ -3,6 +3,3 @@ gems:
   - jekyll-redirect-from
 exclude: ['LICENSE','README.md']
 markdown: kramdown
-
-sass:
-    sass_dir: _sass
