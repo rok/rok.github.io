@@ -53,7 +53,7 @@ for file in parser.parse_args().files:
     textfile.Upload()
 {% endhighlight %}
 5. Run ```python uploader.py``` and follow the initial authentication instructions.
-5. Open the given url, replacing <client_id sting> with your own ```https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id=<clent_id string>.apps.googleusercontent.com&access_type=offline```. You will be asked to confirm an authorisation request and reccieve an authorisation code. Enter the code into the prompt, your uploader is now permenantly authenticated.
+5. Open the given url, replacing <client_id sting> with your own ```https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id=<clent_id string>.apps.googleusercontent.com&access_type=offline```. You will be asked to confirm an authorisation request and reccieve an authorisation code. Enter the code into the prompt, your uploader is now permenantly authenticated. Delete client_secrets.json.
 6. You can now upload files by: ```python uploader example.txt```.
 7. Create a crontab script, run ```crontab -e``` and add the fillowing line to it:
 {% highlight bash %}
