@@ -12,6 +12,7 @@ As the setup is quite simple I decided to write it up for my future reference an
 2. Install PyDrive: ```pip install pydrive```
 3. Copy the following code into uploader.py and store it in the same location as the client_secrets.json.
 {% highlight python %}
+from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import os
 import argparse
@@ -57,3 +58,5 @@ for file in parser.parse_args().files:
 {% highlight bash %}
 0 * * * * python ~/uploader.py ~/logs/* && rm ~/logs/*
 {% endhighlight %}
+
+[1]:http://stackoverflow.com/questions/24419188/automating-pydrive-verification-process
