@@ -68,7 +68,7 @@ Run
 {% highlight bash %}
 python uploader.py
 {% endhighlight %}
-and follow the initial authentication instructions. Trough the prompt you will be given an URL, similar to [this one](https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id={ID_STRING}.apps.googleusercontent.com&access_type=offline). Replace the {ID_STRING} with the one you were given and open the link in a browser. You will be asked to confirm an authorisation request and recieve an authorisation code. Enter the code into the prompt, your uploader is now authenticated. Delete *client_secrets.json*.
+and follow the initial authentication instructions. Trough the prompt you will be given an URL, similar to [this one](https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id={ID_STRING}.apps.googleusercontent.com&access_type=offline). Replace the {ID_STRING} with the one you were given and open the link in a browser. You will be asked to confirm an authorisation request and receive an authorisation code. Enter the code into the prompt, your uploader is now authenticated. Delete *client_secrets.json*.
 
 You can now upload files to the selected Google Drive folder by running: 
 {% highlight bash %}
@@ -82,4 +82,4 @@ To create a crontab script, run
 0 * * * * python ~/uploader.py ~/logs/* && rm ~/logs/*
 {% endhighlight %}
 
-We now have an automated uploader to the cloud. Log uploading is only one of the meny options available. Motion detection triggered videos, regular file backups and more could be uploaded like this.
+We now have an automated uploader to the cloud. Log uploading is only one of the many options available. Motion detection triggered videos, regular file backups and more could be uploaded like this.
