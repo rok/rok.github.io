@@ -4,30 +4,39 @@ title: Crontabed PyDrive uploader
 tag: raspberry, python, google drive
 location: Amsterdam
 ---
-I am preparing small data science-y project, where I am collecting a bunch of logs on a network connected Raspberry pi. I want to upload the logs to an online cloud storage automatically so I don't have to bother with data acquisition.
-As I have a lot of storage on my google drive and there is a great python API for it with a nice wrapper, I've decided to use it.
-As the setup is quite simple I decided to write it up for my future reference and for the intertubes.
+I am preparing small data science-y project, where I will be collecting a bunch of logs on a network connected Raspberry Pi. I want to upload the logs to an online cloud storage automatically.
+As I have a lot of storage on my Google Drive and it has a great [API](https://developers.google.com/drive/) with a [nice python wrapper](http://pythonhosted.org/PyDrive/) for, so I decided to use it.
+The setup is quite simple and I decided to write it up for my future reference and the intertubes.
 
-1. [Enable the drive API with your google account.](https://developers.google.com/drive/v3/web/quickstart/python#step_1_turn_on_the_api_name). Only follow the Step 1 and download the client_secrets.json file.
-2. Install PyDrive: ```pip install pydrive```
-3. Copy the following code into uploader.py and store it in the same location as the client_secrets.json.
+[Enable the drive API with your google account](https://developers.google.com/drive/v3/web/quickstart/python#step_1_turn_on_the_api_name). Only follow the Step 1 and download the client secret file and name it *client_secrets.json*.
+
+To install PyDrive run: 
+{% highlight bash %}
+pip install pydrive
+{% endhighlight %}
+I used python 2.
+
+Copy the following code into *uploader.py* and store it in the same location as the *client_secrets.json*.
 {% highlight python %}
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import os
 import argparse
 
+PARENT_ID = "LONG_FOLDER_ID_STRING"
+
 # Parse the passed arguments
 parser = argparse.ArgumentParser()
-parser.add_argument('files', help='List files to be uploaded.', nargs="+")
+parser.add_argument("files", help="List files to be uploaded.", nargs="+")
 
 # Define the credentials folder
-home_dir = os.path.expanduser('~')
-credential_dir = os.path.join(home_dir, '.credentials')
+home_dir = os.path.expanduser("~")
+credential_dir = os.path.join(home_dir, ".credentials")
 if not os.path.exists(credential_dir):
     os.makedirs(credential_dir)
-credential_path = os.path.join(credential_dir, 'pydrive-credentials.json')
+credential_path = os.path.join(credential_dir, "pydrive-credentials.json")
 
+# Start authentication
 gauth = GoogleAuth()
 # Try to load saved client credentials
 gauth.LoadCredentialsFile(credential_path)
@@ -45,19 +54,32 @@ gauth.SaveCredentialsFile(credential_path)
 
 drive = GoogleDrive(gauth)
 
-# Upload the files and remove them locally
-for file in parser.parse_args().files:
-    print "Uploading " + file
-    textfile = drive.CreateFile()
-    textfile.SetContentFile(file)
-    textfile.Upload()
+# Upload the files
+for f in parser.parse_args().files:
+    new_file = drive.CreateFile({"parents": [{"id": PARENT_ID}], \ 
+                                              "mimeType":"text/plain"})
+    new_file.SetContentFile(f)
+    new_file.Upload()
 {% endhighlight %}
-5. Run ```python uploader.py``` and follow the initial authentication instructions.
-5. Open the given url, replacing <client_id sting> with your own ```https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id=<clent_id string>.apps.googleusercontent.com&access_type=offline```. You will be asked to confirm an authorisation request and reccieve an authorisation code. Enter the code into the prompt, your uploader is now permenantly authenticated. Delete client_secrets.json.
-6. You can now upload files by: ```python uploader example.txt```.
-7. Create a crontab script, run ```crontab -e``` and add the fillowing line to it:
+
+Pick a folder in Google Drive and store its id under the PARENT_ID variable in uploader.py. The id is the string in the URL of your folder, e.g.: *https://drive.google.com/drive/folders/LONG_FOLDER_ID_STRING*.
+
+Run 
+{% highlight bash %}
+python uploader.py
+{% endhighlight %}
+and follow the initial authentication instructions. Trough the prompt you will be given an URL, similar to [this one](https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id={ID_STRING}.apps.googleusercontent.com&access_type=offline). Replace the {ID_STRING} with the one you were given and open the link in a browser. You will be asked to confirm an authorisation request and recieve an authorisation code. Enter the code into the prompt, your uploader is now authenticated. Delete *client_secrets.json*.
+
+You can now upload files to the selected Google Drive folder by running: 
+{% highlight bash %}
+python uploader.py example.txt
+{% endhighlight %}
+
+To create a crontab script, run 
+{% highlight bash %} crontab -e {% endhighlight %} and add the fillowing line to it:
+
 {% highlight bash %}
 0 * * * * python ~/uploader.py ~/logs/* && rm ~/logs/*
 {% endhighlight %}
 
-[1]:http://stackoverflow.com/questions/24419188/automating-pydrive-verification-process
+We now have an automated uploader to the cloud. Log uploading is only one of the meny options available. Motion detection triggered videos, regular file backups and more could be uploaded like this.
