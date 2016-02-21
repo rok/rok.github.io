@@ -75,11 +75,13 @@ You can now upload files to the selected Google Drive folder by running:
 python uploader.py example.txt
 {% endhighlight %}
 
-To create a crontab script, run 
+To create a crontab script, run:
 {% highlight bash %} crontab -e {% endhighlight %} and add the fillowing line to it:
 
 {% highlight bash %}
-0 * * * * python ~/uploader.py ~/logs/* && rm ~/logs/*
+0 * * * * python ~/uploader.py ~/log/fr24feed.log && truncate -s0 ~/log/fr24feed.log
 {% endhighlight %}
+
+In my case I am uploading a log of transponder signals of nearby planes. I am using [Flightradar24](https://www.flightradar24.com/raspberry-pi) packaged [dump1090](https://github.com/antirez/dump1090) to decode and record transponder signals.
 
 We now have an automated uploader to the cloud. Log uploading is only one of the many options available. Motion detection triggered videos, regular file backups and more could be uploaded like this.
