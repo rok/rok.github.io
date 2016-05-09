@@ -3,7 +3,7 @@ layout: post
 title: Crontabed PyDrive uploader
 tag: raspberry, python, google drive
 location: Amsterdam
-comments: True
+comments_disabled: True
 ---
 I am preparing small data science-y project, where I will be collecting a bunch of logs on a network connected Raspberry Pi. I want to upload the logs to an online cloud storage automatically.
 As I have a lot of storage on my Google Drive and it has a great [API](https://developers.google.com/drive/) with a [nice python wrapper](http://pythonhosted.org/PyDrive/) for, so I decided to use it.
