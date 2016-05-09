@@ -21,7 +21,7 @@ layout: default
 
 {% include rss-link.html %}
 
-{% if page.comments_disabled %}
+{% if page.comments == nil or page.comments %}
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = 'rokblog';
