@@ -4,10 +4,10 @@ title: Raspberry Pi based wireless motion triggered camera
 tag: raspberry linux video
 location: Logatec
 ---
-h3. The setup
+### The setup
 
-To start the project I wrote a fresh image of "Raspbian wheezy":http://www.raspberrypi.org/downloads onto a 4GB SD card with "win32diskimager":http://sourceforge.net/projects/win32diskimager/.
-Raspberry was connected to my home router and accessed trought LAN with "putty":http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html.
+To start the project I wrote a fresh image of [Raspbian wheezy](http://www.raspberrypi.org/downloads) onto a 4GB SD card with [win32diskimager](http://sourceforge.net/projects/win32diskimager/).
+Raspberry was connected to my home router and accessed trought LAN with [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 I also used Logitech C270 webcam and Edimax EW-7811Un wireless adapter.
 
 I resized the partition size with raspi-config, using expand_rootfs command:
@@ -20,11 +20,11 @@ To set the proper timezone run:
 sudo dpkg-reconfigure tzdata
 {% endhighlight %}
 
-h3. Motion
+### Motion
 
-References: [ "1":http://through-the-interface.typepad.com/through_the_interface/2012/09/creating-a-motion-detecting-security-cam-with-a-raspberry-pi-part-2.html ] [ "2":http://jeremyblythe.blogspot.co.uk/2012/06/motion-google-drive-uploader-and.html ]
+References: [[1](http://through-the-interface.typepad.com/through_the_interface/2012/09/creating-a-motion-detecting-security-cam-with-a-raspberry-pi-part-2.html)] [[2](http://jeremyblythe.blogspot.co.uk/2012/06/motion-google-drive-uploader-and.html)]
 
-First we update the repository list, upgrade the system and install "motion":http://www.lavrsen.dk/foswiki/bin/view/Motion/WebHome, the motion detection software. This will take a while, optionaly you can skip apt-get upgrade.
+First we update the repository list, upgrade the system and install [motion](http://www.lavrsen.dk/foswiki/bin/view/Motion/WebHome), the motion detection software. This will take a while, optionaly you can skip apt-get upgrade.
 {% highlight bash %}
 sudo apt-get update && sudo apt-get upgrade && sudo apt-get install motion
 {% endhighlight %}
@@ -44,7 +44,7 @@ sudo apt-get install python-pip
 sudo pip install gdata
 {% endhighlight %}
 
-Then download "uploader.py":http://files.mihevc.org/raspi/motion/uploader and "uploader.cfg":http://files.mihevc.org/raspi/motion/uploader.cfg. Configure uploader.cfg with your google account credentials to enable motion to upload recorded videos.
+Then download [uploader.py](http://files.mihevc.org/raspi/motion/uploader) and [uploader.cfg](http://files.mihevc.org/raspi/motion/uploader.cfg). Configure uploader.cfg with your google account credentials to enable motion to upload recorded videos.
 
 {% highlight bash %}
 sudo wget http://files.mihevc.org/raspi/motion/uploader -O /etc/motion/uploader.py
@@ -62,9 +62,9 @@ sudo reboot
 We create a folder named motion on our google drive, this is where the captured videos will be uploaded to. Now we plugin the webcam, restart the system and test it by, well, moving. Final result should be recieving an email to our gmail account with a link to the captured video.
 If something is not working it is worth checking /tmp/motion folder - if there is no files in it motion is not working properly. If files appear in /tmp/motion, but don't upload to your google drive account the problem is in the uploader area.
 
-h3. WLAN
+### WLAN
 
-References: [ "3":http://svay.com/blog/setting-up-a-wifi-connection-on-the-raspberrypi/ ] [ "4":http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/How-to-Quickly-Configure-Wireless-WPA-Connection-on-Raspberry-Pi ] [ "5":http://rpi.tnet.com/project/scripts/wifi_check ]
+References: [[3](http://svay.com/blog/setting-up-a-wifi-connection-on-the-raspberrypi/)] [[4](http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/How-to-Quickly-Configure-Wireless-WPA-Connection-on-Raspberry-Pi)] [[5](http://rpi.tnet.com/project/scripts/wifi_check)]
 
 To set up the wireless connection we first open the dedicated config file:
 
