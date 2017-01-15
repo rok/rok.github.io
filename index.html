@@ -2,11 +2,5 @@
 layout: default
 ---
 {% for post in site.posts %}
-  <h3>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </h3>
-  <span>
-    {{ post.date | date: '%B %d, %Y' }}{% if post.location != null %}, @{{ post.location }} {% endif %}
-  </span>
+  <p>{{ post.date | date: '[%Y-%m-%d]' }} <a href="{{ post.url }}">{{ post.title }}</a></p>
 {% endfor %}
-{% include rss-link.html %}

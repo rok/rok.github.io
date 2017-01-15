@@ -3,3 +3,7 @@ gems:
   - jekyll-redirect-from
 exclude: ['LICENSE','README.md']
 markdown: kramdown
+
+author: Rok Mihevc
+title: A blog
+ga_code: UA-3277148-3
