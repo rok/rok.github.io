@@ -75,8 +75,8 @@ df_resampled.toPandas() \
     .plot(figsize=[14,5], title='Count emails per 15 minute interval')
 {% endhighlight %}
 
-![png]({{ site.baseurl }}/files/2016-09-27-spark-resampling_7_1.png)
+![png]({{ site.baseurl }}/images/2016-09-27-spark-resampling_7_1.png)
 
 As shown this resampling can be easy and fast in Spark using a helper function. The presented function will work for from microsecond- to century-long intervals. The one downside would be that leap years will make time stamps over long periods look less nice and solving for that would make the proposed function much more complicated as you can imagine by observing gregorian calendar time shifting:
 
-![svg]({{ site.baseurl }}/files/2016-09-27-gregoriancalendarleap_solstice.svg)
+![svg]({{ site.baseurl }}/images/2016-09-27-gregoriancalendarleap_solstice.svg)

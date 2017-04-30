@@ -1,10 +1,14 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
-Hi! I'm Rok, an Amsterdam based data scientist / physicist. Originally from Slovenia. I mostly use Python.
 
-- [rok@mihevc.org](mailto:rok@mihevc.org)
+Hi! I am a data scientist based in Amsterdam. I use Python, Spark, Jupyter, Scikit-learn, AWS, etc.
+I currently work for [Amsterdam Airport](https://www.schiphol.nl).
+
+Available for freelance assignments.
+
+- [github.com/{{ site.github_username }}/](https://github.com/{{ site.github_username }})
+- [linkedin.com/in/{{ site.linkedin }}](https://linkedin.com/in/{{ site.linkedin }})
 - +31 621347295
-- [github.com/rok/](http://github.com/rok/)
-- [linkedin.com/in/rokmihevc/](http://linkedin.com/in/rokmihevc/)
