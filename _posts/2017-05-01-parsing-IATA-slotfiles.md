@@ -4,9 +4,9 @@ title: Parsing IATA slotfiles
 location: Amsterdam
 tags:
   - Python
+  - Airlines
 author: Rok Mihevc
 ---
-
 TL;DR - Working at Amsterdam Airport I participated in couple of projects that required parsing of slotfiles. This resulted in me wrting a parser for a very old file format. I've published the parser on pypi \o/. [Check it out on pypi](https://pypi.python.org/pypi/ssim/).
 
 # About slotfiles
