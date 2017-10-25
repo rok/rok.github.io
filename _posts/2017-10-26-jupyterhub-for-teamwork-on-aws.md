@@ -10,7 +10,7 @@ tags:
   - cloudformation
 author: Rok Mihevc
 ---
-TL;DR - Here's a fancy one command script to build your own JupyterHub in the (AWS) cloud: [(click)](https://gist.github.com/rok/909b6bb57b856ac1e5e8f1f123286e92)
+[TL;DR](http://knowyourmeme.com/memes/tldr) - Here's a fancy one command script to build your own JupyterHub in the (AWS) cloud: [(click)](https://gist.github.com/rok/909b6bb57b856ac1e5e8f1f123286e92)
 
 # The need
 
