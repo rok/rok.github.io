@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jupyterhub for teamwork on AWS
+title: JupyterHub for teamwork on AWS
 location: Amsterdam
 tags:
   - Python
@@ -14,13 +14,13 @@ author: Rok Mihevc
 
 # The need
 
-I ocnasionaly need a reliable, secure and sharable jupyter(hub) installation. The combination of the three requires a bit of thought and sysadmin maintenance later on. My wishlist is usually: https connection, authentication for multiple users and maintainable python virtual environments.
+I occasionally need a reliable, secure and sharable jupyter(hub) installation. The combination of the three requires a bit of thought and sysadmin maintenance later on. My wish list is usually: https connection, authentication for multiple users and maintainable Python virtual environments.
 
 # The implementation
 
-* As I do this just enough to forget what I did the last time I wanted the whole proces scripted. I chose Cloudformation due to the fact deployments can easily be deleted with another command.
+* As I do this just enough to forget what I did the last time I wanted the whole process scripted. I chose Cloudformation due to the fact deployments can easily be deleted with another command.
 * The script implements a JupyterHub installation on EC2 machine. Supervisord restarts JupyterHub on machine restart.
-* TODO: kernels other than python3 in seperate virtualenvs.
+* TODO: kernels other than python3 in separate virtualenvs.
 * TODO: easy user management.
 
 # The How-To
