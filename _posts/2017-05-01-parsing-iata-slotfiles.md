@@ -45,6 +45,11 @@ C - Service type (C is chartered passenger flight)
 
 The reason the format is so condensed probably has to do with the fact [it was invented in the 20s](https://en.wikipedia.org/wiki/Airline_teletype_system) and was designed to send slots via [teletypewriters](https://en.wikipedia.org/wiki/Teletype_Corporation).
 Even though it is a de-facto standard of the industry there is no open source implementation of it.
+To Learn more about slotfiles see: [[1]][1], [[2]][2], [[3]][3]. 
+
+  [1]: http://www.slots-austria.com/jart/prj3/sca/uploads/data-uploads/downloads/e)%20Miscellanious/overall/SCR,%20SIR%20Quick%20Guide.pdf
+  [2]: https://www.slotcoordination.es/csee/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobkey=id&blobtable=MungoBlobs&blobwhere=1445426450338&ssbinary=true
+  [3]: http://www.slotcoordination.ch/documents/SCR_Crash_Course_Edition_2015.pdf
 
 # Experience with slotfiles
 
